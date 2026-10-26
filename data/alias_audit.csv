@@ -1,0 +1,195 @@
+site,alias,gazetteer_matches,near_km,far_n,far_examples
+Eddystone,Eddystone,1,11.1,0,
+Eddystone,Eddistone,0,,0,
+Longships,Longships,1,0.2,0,
+Longships,Long Ships,0,,0,
+Wolf Rock,Wolf Rock,3,0.1,2,Wolf Rocks (Cornwall); Wolf Rock (Devon)
+Wolf Rock,\bthe Wolf\b,0,,0,
+Bishop Rock,Bishop Rock,1,0.1,0,
+Round Island,"Round Island(?!,? (County|Ireland|Dorset|Poole))",3,0.1,2,Round Island (Dumfries and Galloway); Round Island (Dorset)
+St Agnes,"St\.? Agnes(?!,? Cornwall)(?=,? (Scilly|Isles of Scilly)|\b)",5,0.1,3,St Agnes (Cornwall); St Agnes Head (Cornwall); Papworth St Agnes (Cambridgeshire)
+Lizard,"\bLizard\b(?! Point, County Durham)",5,0.8,2,Lizard Point (); Weston-under-Lizard (Staffordshire)
+Godrevy,Godrevy,5,0.1,1,Godrevy Cove (Cornwall)
+Pendeen,Pendeen,6,0.1,0,
+Trevose Head,Trevose,1,0.1,0,
+St Anthony Head,St\.? Anthony'?s? (Head|Point|Lighthouse),1,0.1,0,
+Start Point (Devon),"Start Point(?!,? (Sanday|Orkney))",3,0.3,2,Start Point (Orkney Islands); Start Point (Cornwall)
+Berry Head,Berry Head,1,0.2,0,
+Hartland Point,Hartland,2,0.1,0,
+Bull Point,Bull Point,2,0.2,0,
+Bull Point,Morte Point,1,2.3,0,
+Bull Point,Morte Stone,1,2.7,0,
+Bull Point,Morthoe,0,,0,
+Bull Point,Mortehoe,1,1.6,0,
+Lundy,Lundy,5,0.1,3,Lundy Beach (Cornwall); Lundy Hole (Cornwall); Lundy Green (Norfolk)
+Foreland Point,Lynmouth Foreland,0,,0,
+Foreland Point,Foreland Point,1,0.0,0,
+Foreland Point,Countisbury,2,1.4,0,
+Portland Bill,Portland Bill,2,0.1,0,
+Portland Bill,Portland Race,0,,0,
+Portland Bill,Bill of Portland,0,,0,
+Anvil Point,Anvil Point,1,0.1,0,
+Anvil Point,Durlston,3,0.6,0,
+Needles,"\bNeedles\b(?!,? (Shetland|Aberdeenshire))",5,0.2,4,The Needles (Shetland Islands); The Needles (Aberdeenshire); Needles Eye (Dumfries and Galloway); Needles Eye (Dumfries and Galloway)
+Hurst Point,Hurst (Castle|Point|Spit|Beach|Narrows|Road),1,1.5,0,
+Hurst Point,"\bHurst\b,? Hampshire",0,,0,
+St Catherine's Point,St\.? Catherine'?s (Point|Head|Lighthouse),2,0.1,1,St Catherine's Point (Cornwall)
+St Catherine's Point,Chale,4,2.9,1,Blue Chalet Beach (Essex)
+St Catherine's Point,Atherfield,3,5.4,0,
+St Catherine's Point,Blackgang,1,1.7,0,
+Beachy Head,Beachy Head,1,1.6,0,
+Beachy Head,Belle Tout,0,,0,
+Dungeness,Dungeness,1,0.7,0,
+Dungeness,Dunge Ness,0,,0,
+South Foreland,South Foreland,1,0.2,0,
+North Foreland,North Foreland,0,,0,
+Gunfleet,Gunfleet,1,12.4,0,
+Orford Ness,Orford ?[Nn]ess,0,,0,
+Orford Ness,Orfordness,0,,0,
+Happisburgh,Happisburgh,2,0.5,0,
+Happisburgh,Haisborough,0,,0,
+Happisburgh,Hasborough,0,,0,
+Happisburgh,Hasbro'?\b,0,,0,
+Winterton,Winterton(?!-on-Sea)?\b,3,0.4,1,Winterton (North Lincolnshire)
+Flamborough Head,Flamborough,2,0.2,0,
+Flamborough Head,Flambro'?\b,0,,0,
+Spurn,Spurn\b,0,,0,
+Souter (Whitburn),Souter(?! Head),7,1.6,6,Souter's Island (Highland); Souters' Hole (Aberdeenshire); Souter (Scottish Borders); Souter Brae (Scottish Borders)
+Souter (Whitburn),"Whitburn(?!,? West Lothian)",7,2.2,2,Whitburn (West Lothian); East Whitburn (West Lothian)
+Souter (Whitburn),Marsden (Rock|Bay),2,1.0,0,
+St Mary's Island,"St\.? Mary'?s Island(?!,? (Kent|Medway|Chatham))",3,0.0,2,St Mary's Island (Reading); St Mary's Island (Medway)
+St Mary's Island,Bait Island,1,0.0,0,
+Coquet Island,Coquet,2,0.1,0,
+Farne Islands,Farne,4,0.2,1,Farnell (Angus)
+Farne Islands,Longstone,6,1.9,5,Longstone (City of Edinburgh); Little Longstone (Derbyshire); Great Longstone (Derbyshire); Longstone (Cornwall)
+Farne Islands,Staple Island,1,0.4,0,
+Farne Islands,Brownsman,2,0.5,0,
+Farne Islands,Harcar,2,1.1,0,
+Farne Islands,Knivestone,1,2.8,0,
+Holy Island,"Holy Island(?!,? (Arran|Anglesey|Ayrshire|Buteshire))",5,1.0,2,Holy Island (North Ayrshire); Ynys Gybi (Sir Ynys Mon - Isle of Anglesey)
+Holy Island,Lindisfarne,1,1.7,0,
+Bamburgh,Bamburgh,2,1.2,0,
+Bamburgh,Bamborough,0,,0,
+St Bees Head,St\.? Bees,3,1.0,0,
+Walney,Walney,5,2.5,0,
+Point of Ayr (Wales),Point of Ayr\b(?!e),0,,0,
+Great Orme,Great Orme,0,,0,
+Great Orme,Orme'?s Head,1,6.0,0,
+Great Orme,Ormeshead,0,,0,
+Penmon,Penmon,3,0.9,0,
+Penmon,Trwyn Du,3,0.1,1,Trwyn Du (Sir Ynys Mon - Isle of Anglesey)
+Penmon,Puffin Island,2,1.1,1,Puffin Island (Isles of Scilly)
+Point Lynas,Lynas,1,0.1,0,
+Skerries (Anglesey),"\b[Tt]he Skerries(?!,? (County Dublin|Dublin|Portrush|County Antrim))",2,0.1,1,The Skerries (Highland)
+Skerries (Anglesey),"Skerries,? Anglesey",0,,0,
+South Stack,South Stack,2,0.1,1,South Stack (Highland)
+South Stack,North Stack,1,2.0,0,
+Llanddwyn,Llanddwyn,4,0.5,0,
+Bardsey,Bardsey,3,1.4,1,Bardsey ()
+St Tudwal's,Tudwal,3,0.1,0,
+Strumble Head,Strumble,1,0.5,0,
+South Bishop,South Bishop,1,0.0,0,
+South Bishop,Bishops and Clerks,1,3.7,0,
+South Bishop,Bishop and (his )?Clerks,0,,0,
+Skokholm,Skokholm,1,0.8,0,
+St Ann's Head,St\.? Ann'?s Head,2,0.2,0,
+Caldey,Caldey,4,0.7,0,
+Caldey,Caldy Island,0,,0,
+Mumbles,Mumbles,2,0.0,0,
+Whiteford,Whiteford,2,2.0,1,Whiteford (Aberdeenshire)
+Nash Point,Nash (Point|Sands?),1,0.6,0,
+Nash Point,\b[Tt]he Nash\b,0,,0,
+Flat Holm,Flat ?Holm,1,0.4,0,
+St Abbs Head,St\.? Abb'?s,1,1.9,0,
+Bass Rock,"Bass Rock(?!,? Cornwall)",3,0.1,2,Bass Rock (Cornwall); Bass Rock (Cornwall)
+Fidra,Fidra,3,0.2,0,
+Inchkeith,Inchkeith,2,0.1,0,
+Isle of May,Isle of May,1,0.3,0,
+Isle of May,May Island,0,,0,
+Elie Ness,Elie Ness,1,0.1,0,
+Bell Rock,Bell Rock,5,0.2,4,Bell Rock (South Ayrshire); Bell Rock (Fife); Bell Rock (Torbay); Bell Rock (North Yorkshire)
+Bell Rock,Inchcape,1,0.2,0,
+Scurdie Ness,Scurdie ?[Nn]ess,0,,0,
+Scurdie Ness,Scurdyness,0,,0,
+Todhead,Tod ?[Hh]ead,2,0.1,0,
+Girdle Ness,Girdle ?[Nn]ess,1,0.2,0,
+Buchan Ness,Buchan ?[Nn]ess,1,0.1,0,
+Buchan Ness,"Boddam(?!,? Shetland)",2,0.6,1,Boddam (Shetland Islands)
+Rattray Head,Rattray,3,0.4,2,Rattray (Perth and Kinross); Blairgowrie and Rattray (Perth and Kinross)
+Covesea Skerries,Covesea,3,0.9,0,
+Covesea Skerries,Coversea,0,,0,
+Covesea Skerries,Halliman,1,1.4,0,
+Tarbat Ness,Tarbat ?[Nn]ess,1,0.2,0,
+Tarbat Ness,Tarbet Ness,0,,0,
+Noss Head,Noss Head,1,0.2,0,
+Duncansby Head,Duncansby,6,0.4,0,
+Duncansby Head,Duncansbay,0,,0,
+Pentland Skerries,Pentland Skerries,1,1.5,0,
+Stroma,Stroma,5,1.5,4,Stromay (Na h-Eileanan an Iar); Heastam Sròmaigh (Na h-Eileanan an Iar); Stromay (Na h-Eileanan an Iar); Stromaskeir (Highland)
+Dunnet Head,Dunnet Head,0,,0,
+Holburn Head,Holburn Head,0,,0,
+Strathy Point,Strathy,5,2.2,2,Strathy (Highland); Strathyre (Stirling)
+Cape Wrath,Cape Wrath,1,0.2,0,
+Cantick Head,Cantick,4,0.1,0,
+Hoy Sound,Hoy Sound,1,2.1,0,
+Hoy Sound,Graemsay,1,0.9,0,
+Copinsay,Copinsay,4,0.2,0,
+Auskerry,Auskerry,2,0.6,0,
+Sanday,\bSanday\b,4,11.6,2,Upper Sanday (Orkney Islands); Sanday (Highland)
+Sanday,"Start Point,? (Sanday|Orkney)",0,,0,
+North Ronaldsay,North Ronaldsay,2,2.1,0,
+Noup Head,Noup Head,2,0.3,0,
+Sule Skerry,Sule Skerry,1,0.1,0,
+Fair Isle,Fair Isle,1,0.5,0,
+Sumburgh Head,Sumburgh,6,0.0,0,
+Bressay,Bressay,2,1.9,0,
+Out Skerries,Out Skerries,1,3.1,0,
+Out Skerries,Bound Skerry,2,0.1,0,
+Muckle Flugga,Muckle Flugga,1,0.0,0,
+Esha Ness,Esha ?[Nn]ess,2,1.9,0,
+Butt of Lewis,Butt of Lewis,1,0.3,0,
+Tiumpan Head,Tiumpan,2,0.1,1,Tiumpan (Na h-Eileanan an Iar)
+Eilean Glas,Eilean Glas,24,0.1,18,Eilean Glas (Na h-Eileanan an Iar); Eilean Glas Tòb Chleteir (Na h-Eileanan an Iar); Eilean Glas (Na h-Eileanan an Iar); Eilean Glas (Na h-Eileanan an Iar)
+Eilean Glas,Scalpay,6,1.8,2,Scalpay (Highland); Caolas Scalpay (Highland)
+Flannan Isles,Flannan,1,0.8,0,
+Monach Isles,Monach,4,2.6,2,Zeal Monachorum (Devon); Buckland Monachorum (Devon)
+Barra Head,Barra Head,1,1.2,0,
+Neist Point,Neist,2,0.2,0,
+Rua Reidh,Rua Reidh,0,,0,
+Stoer Head,Stoer,4,2.7,0,
+Ardnamurchan,Ardnamurchan,2,0.2,0,
+Skerryvore,Skerryvore,1,0.2,0,
+Dubh Artach,Dubh Artach,1,0.2,0,
+Dubh Artach,Dhu Heartach,0,,0,
+Dubh Artach,Dubh Heartach,0,,0,
+Lismore,"Lismore(?!,? County)",1,8.3,0,
+Lismore,Musdile,1,0.3,0,
+Rinns of Islay,Rh?inns of Islay,1,13.4,0,
+Rinns of Islay,Orsay,1,0.1,0,
+Ruvaal (Islay),Ruvaal,0,,0,
+Ruvaal (Islay),Rhuvaal,0,,0,
+Mull of Kintyre,Mull of (Kintyre|Cantyre),0,,0,
+Sanda,\bSanda\b(?! ?y),6,0.6,3,Sanda Little (Shetland Islands); Sanda Stour (Shetland Islands); Sanda Cailla (Shetland Islands)
+Davaar,Davaar,1,0.4,0,
+Pladda,Pladda,4,0.2,2,Pladda Island (Argyll and Bute); Pladda (Argyll and Bute)
+Ailsa Craig,Ailsa,2,0.6,0,
+Turnberry,Turnberry,3,0.3,0,
+Lady Isle,Lady Isle,1,0.1,0,
+Cloch Point,Cloch\b,1,350.5,1,Porth Cloch (Gwynedd - Gwynedd)
+Toward Point,Toward Point,1,0.1,0,
+Corsewall,Corsewall,1,0.1,0,
+Killantringan,Killantringan,1,0.5,0,
+Killantringan,"Black Head,? Wigtownshire",0,,0,
+Mull of Galloway,Mull of Galloway,2,0.6,0,
+Little Ross,Little Ross,1,0.1,0,
+Southerness,Southerness,3,0.0,0,
+Southerness,Southernness,0,,0,
+Southerness,Satterness,0,,0,
+Inishtrahull,Inishtrahull,0,,0,
+Inishowen Head,Inishowen Head,0,,0,
+Inishowen Head,Dunagree,0,,0,
+Fanad Head,Fanad,0,,0,
+Fanad Head,Fannet,0,,0,
+Tory Island,Tory Island,0,,0,
+Arranmore,Arranmore,0,,0,
+Arranmore,Aranmore,0,,0,

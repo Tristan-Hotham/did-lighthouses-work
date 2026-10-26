@@ -1,0 +1,180 @@
+site,group,kind,first_lit,year_source,light_ids,lights,lat,lon,exclude,note,aliases
+Eddystone,light,rock,1698.0,hand override,L016;L123,Eddystone Lighthouse;Smeaton's Tower,50.2722,-4.203415,first lit before the wreck record begins,"First tower (Winstanley) lit 1698; rebuilt 1709, 1759 and 1882. The list year 1882 is the current tower.",Eddystone | Eddistone
+Longships,light,rock,1795.0,hand override,L038,Longships Lighthouse,50.06686,-5.74677,,First tower lit 1795; the list year 1875 is the replacement tower.,Longships | Long Ships
+Wolf Rock,light,rock,1869.0,Wikipedia list,L082,Wolf Rock Lighthouse,49.9453,-5.80833,,,Wolf Rock | \bthe Wolf\b
+Bishop Rock,light,rock,1858.0,Wikipedia list,L008,Bishop Rock Lighthouse,49.871666666667,-6.445,,,Bishop Rock
+Round Island,light,rock,1887.0,Wikipedia list,L059,Round Island Lighthouse,49.978898,-6.322992,,,"Round Island(?!,? (County|Ireland|Dorset|Poole))"
+St Agnes,light,island,1680.0,Wikipedia list,L119,St Agnes Lighthouse,49.8925,-6.34543,first lit before the wreck record begins; St Agnes is also a Cornish village,,"St\.? Agnes(?!,? Cornwall)(?=,? (Scilly|Isles of Scilly)|\b)"
+Lizard,light,headland,1751.0,Wikipedia list,L037,Lizard Lighthouse,49.9602,-5.20206,first lit before the wreck record begins,,"\bLizard\b(?! Point, County Durham)"
+Godrevy,light,rock,1859.0,Wikipedia list,L022,Godrevy Lighthouse,50.242494,-5.400219,,,Godrevy
+Pendeen,light,headland,1900.0,Wikipedia list,L049,Pendeen Lighthouse,50.1649665,-5.671592,,,Pendeen
+Trevose Head,light,headland,1847.0,Wikipedia list,L072,Trevose Head Lighthouse,50.549232,-5.035141,,,Trevose
+St Anthony Head,light,headland,1835.0,Wikipedia list,L060,St Anthony's Lighthouse,50.141208,-5.015851,,,St\.? Anthony'?s? (Head|Point|Lighthouse)
+Start Point (Devon),light,headland,1836.0,Wikipedia list,L067,Start Point Lighthouse,50.222439,-3.642282,,,"Start Point(?!,? (Sanday|Orkney))"
+Berry Head,light,headland,1906.0,Wikipedia list,L006,Berry Head Lighthouse,50.399583333333,-3.4834444444444,,,Berry Head
+Hartland Point,light,headland,1874.0,Wikipedia list,L026,Hartland Point Lighthouse,51.022143,-4.525475,,,Hartland
+Bull Point,light,headland,1879.0,Wikipedia list,L009,Bull Point Lighthouse,51.1992,-4.20111,,,Bull Point | Morte Point | Morte Stone | Morthoe | Mortehoe
+Lundy,light,island,1820.0,Wikipedia list,L111;L041;L042,Lundy Old Light;Lundy North Lighthouse;Lundy South Lighthouse,51.17703066666667,-4.668745333333333,,,Lundy
+Foreland Point,light,headland,1900.0,Wikipedia list,L044,Lynmouth Foreland Lighthouse,51.245389,-3.786681,,,Lynmouth Foreland | Foreland Point | Countisbury
+Portland Bill,light,headland,1869.0,Wikipedia list,L117;L054,Portland Bill High Light;Portland Bill Lighthouse,50.518292,-2.4564135,lights at Portland Bill long before the year in the data (early 18th century),,Portland Bill | Portland Race | Bill of Portland
+Anvil Point,light,headland,1881.0,Wikipedia list,L001,Anvil Point Lighthouse,50.59194444,-1.96,,,Anvil Point | Durlston
+Needles,light,rock,1786.0,hand override,L047,Needles Lighthouse,50.66222222,-1.59166667,,First light on the cliff top above the Needles lit 1786; the list year 1859 is the rock tower.,"\bNeedles\b(?!,? (Shetland|Aberdeenshire))"
+Hurst Point,light,headland,1786.0,hand override,L031,Hurst Point Lighthouse,50.7081,-1.55028,,First light at Hurst 1786; the list year 1867 is the present tower.,"Hurst (Castle|Point|Spit|Beach|Narrows|Road) | \bHurst\b,? Hampshire"
+St Catherine's Point,light,headland,1838.0,Wikipedia list,L062,St. Catherine's Lighthouse,50.5757,-1.2979,,The medieval oratory on St Catherine's Down is not treated as the first light.,St\.? Catherine'?s (Point|Head|Lighthouse) | Chale | Atherfield | Blackgang
+Beachy Head,light,headland,1834.0,Wikipedia list,L083;L003,Belle Tout Lighthouse;Beachy Head Lighthouse,50.7359805,0.2279795,,,Beachy Head | Belle Tout
+Dungeness,light,headland,1904.0,Wikipedia list,L015;L095,Dungeness Lighthouse;Dungeness Old Lighthouse,50.913629,0.97283,lights at Dungeness from the 17th century; the list years are later towers,,Dungeness | Dunge Ness
+South Foreland,light,headland,1843.0,Wikipedia list,L125;L126,South Foreland Upper Lighthouse;South Foreland Lower Lighthouse,51.140676455000005,1.3735985,lights at South Foreland from the 17th century; the list years are later towers,,South Foreland
+North Foreland,light,headland,1691.0,Wikipedia list,L048,North Foreland Lighthouse,51.374928,1.445091,first lit before the wreck record begins,,North Foreland
+Gunfleet,light,sands,1850.0,Wikipedia list,L101,Gunfleet Lighthouse,51.7792,1.3575,,,Gunfleet
+Orford Ness,light,headland,1792.0,Wikipedia list,L114,Orfordness Lighthouse,52.0839,1.5743,lights at Orford Ness from the 17th century; the list year 1792 is a later tower,,Orford ?[Nn]ess | Orfordness
+Happisburgh,light,sands,1791.0,Wikipedia list,L025,Happisburgh Lighthouse,52.8195,1.53867,,"Happisburgh lights (1791) guard the Haisborough Sands, which also had a lightvessel.",Happisburgh | Haisborough | Hasborough | Hasbro'?\b
+Winterton,light,headland,1840.0,Wikipedia list,L129,Winterton Lighthouse,52.713,1.6953,lights at Winterton from the 17th century; the list year 1840 is a later tower,,Winterton(?!-on-Sea)?\b
+Flamborough Head,light,headland,1806.0,Wikipedia list,L018,Flamborough Head Lighthouse,54.116397,-0.082553,,The list's 1674 Chalk Tower is left out: it is not known to have been lit regularly. First light taken as 1806.,Flamborough | Flambro'?\b
+Spurn,light,headland,1895.0,Wikipedia list,L128,Spurn Lighthouse,53.578975,0.118328,lights at Spurn from the 17th century; the list year 1895 is a later tower,,Spurn\b
+Souter (Whitburn),light,rock,1871.0,Wikipedia list,L124,Souter Lighthouse,54.9705,-1.36409,,,"Souter(?! Head) | Whitburn(?!,? West Lothian) | Marsden (Rock|Bay)"
+St Mary's Island,light,island,1898.0,Wikipedia list,L121,St. Mary's Lighthouse,55.071701,-1.449599,,,"St\.? Mary'?s Island(?!,? (Kent|Medway|Chatham)) | Bait Island"
+Coquet Island,light,island,1841.0,Wikipedia list,L012,Coquet Lighthouse,55.334,-1.5396,,,Coquet
+Farne Islands,light,island,1811.0,Wikipedia list,L017;L088;L039,Farne Lighthouse;Brownsman Lighthouse;Longstone Lighthouse,55.631138666666665,-1.630778,private lights on the Farnes before the 1811 towers in the data,,Farne | Longstone | Staple Island | Brownsman | Harcar | Knivestone
+Holy Island,light,island,1826.0,Wikipedia list,L029;L024,Heugh Hill Lighthouse;Guile Point East Lighthouse,55.663205000000005,-1.796385,,,"Holy Island(?!,? (Arran|Anglesey|Ayrshire|Buteshire)) | Lindisfarne"
+Bamburgh,light,headland,1910.0,Wikipedia list,L002,Bamburgh Lighthouse,55.616555555556,-1.7241666666667,,,Bamburgh | Bamborough
+St Bees Head,light,headland,1822.0,Wikipedia list,L061,St Bees Lighthouse,54.5137,-3.6365,a coal light at St Bees from the early 18th century; the list year 1822 is a later tower,,St\.? Bees
+Walney,light,island,1804.0,Wikipedia list,L075,Walney Lighthouse,54.0486,-3.1772,an earlier light at Walney before the 1804 tower in the data,,Walney
+Point of Ayr (Wales),light,headland,1776.0,Wikidata inception (P571),L161,Point of Ayr Lighthouse,53.3569,-3.32222,,,Point of Ayr\b(?!e)
+Great Orme,light,headland,1862.0,Wikidata inception (P571),L162,Great Orme Lighthouse,53.3423,-3.8689,,,Great Orme | Orme'?s Head | Ormeshead
+Penmon,light,rock,1838.0,Wikidata inception (P571),L134,Trwyn Du Lighthouse,53.3129,-4.04068,,,Penmon | Trwyn Du | Puffin Island
+Point Lynas,light,headland,1835.0,Wikidata service entry (P729),L135,Point Lynas Lighthouse,53.4161,-4.28917,an earlier light at Point Lynas before the 1835 tower in the data,,Lynas
+Skerries (Anglesey),light,rock,1717.0,Wikidata inception (P571),L136,Skerries Lighthouse,53.42122,-4.60817,first lit before the wreck record begins,,"\b[Tt]he Skerries(?!,? (County Dublin|Dublin|Portrush|County Antrim)) | Skerries,? Anglesey"
+South Stack,light,rock,1809.0,Wikidata inception (P571),L138,South Stack Lighthouse,53.30666667,-4.69944444,,,South Stack | North Stack
+Llanddwyn,light,island,1820.0,Wikidata inception (P571),L165,Twr Mawr Llanddwyn Lighthouse,53.135277777,-4.415555555,,,Llanddwyn
+Bardsey,light,island,1821.0,Wikidata inception (P571),L139,Bardsey Lighthouse,52.749888888,-4.799861111,,,Bardsey
+St Tudwal's,light,island,1877.0,Wikidata inception (P571),L140,St Tudwal’s Lighthouse,52.798498,-4.4714058,,,Tudwal
+Strumble Head,light,headland,1908.0,Wikidata inception (P571),L141,Strumble Head Lighthouse,52.02985,-5.0737927,,,Strumble
+South Bishop,light,rock,1839.0,Wikidata inception (P571),L142,South Bishop Lighthouse,51.852675,-5.411926,,,South Bishop | Bishops and Clerks | Bishop and (his )?Clerks
+Smalls,light,rock,1776.0,hand override,L143,Smalls Lighthouse,51.721215,-5.6698543,,First (timber) light lit 1776; the 1861 year in Wikidata is the replacement stone tower.,\bSmalls\b
+Skokholm,light,island,1916.0,Wikidata inception (P571),L144,Skokholm Lighthouse,51.693869,-5.2869493,,,Skokholm
+St Ann's Head,light,headland,1844.0,Wikidata service entry (P729),L145,St. Ann's Head Lighthouse,51.681,-5.17362,an earlier light at St Ann's Head before the year in the data,,St\.? Ann'?s Head
+Caldey,light,island,1829.0,Wikidata inception (P571),L150,Caldey Lighthouse,51.631585,-4.6842452,,,Caldey | Caldy Island
+Mumbles,light,headland,1794.0,Wikidata inception (P571),L153,Mumbles Lighthouse,51.5668,-3.97108,,,Mumbles
+Whiteford,light,sands,1865.0,Wikidata service entry (P729),L166,Whiteford Lighthouse,51.6525,-4.25102,,,Whiteford
+Nash Point,light,sands,1831.0,Wikidata inception (P571),L155;L167,Nash Point Lighthouse;Old Nash Point Lighthouse,51.4009795555,-3.554392033,,,Nash (Point|Sands?) | \b[Tt]he Nash\b
+Flat Holm,light,island,1737.0,Wikidata inception (P571),L156,Flat Holm Lighthouse,51.375,-3.117,first lit before the wreck record begins,,Flat ?Holm
+St Abbs Head,light,headland,1862.0,Wikidata inception (P571),L253,St. Abbs Lighthouse,55.9162,-2.13877,,,St\.? Abb'?s
+Bass Rock,light,rock,1902.0,Wikidata inception (P571),L174,Bass Rock Lighthouse,56.076545,-2.6409827,,,"Bass Rock(?!,? Cornwall)"
+Fidra,light,island,1885.0,Wikidata inception (P571),L199,Fidra Lighthouse,56.073224,-2.7851367,,,Fidra
+Inchkeith,light,island,1804.0,Wikidata service entry (P729),L212,Inchkeith Lighthouse,56.0335,-3.13622,,,Inchkeith
+Isle of May,light,island,1816.0,Wikidata inception (P571),L213;L214,Isle of May Lighthouse;Isle of May Low Light,56.184305,-2.5546854999999997,a coal light on the Isle of May from the 17th century,,Isle of May | May Island
+Elie Ness,light,headland,1908.0,Wikidata inception (P571),L195,Elie Ness Lighthouse,56.183963,-2.8126905,,,Elie Ness
+Bell Rock,light,rock,1811.0,Wikidata service entry (P729),L175,Bell Rock Lighthouse,56.432860418,-2.388088706,,,Bell Rock | Inchcape
+Scurdie Ness,light,headland,1870.0,Wikidata inception (P571),L250,Scurdie Ness Lighthouse,56.7018,-2.43728,,,Scurdie ?[Nn]ess | Scurdyness
+Todhead,light,headland,1897.0,Wikidata service entry (P729),L262,Todhead Lighthouse,56.883914204,-2.215328836,,,Tod ?[Hh]ead
+Girdle Ness,light,headland,1833.0,Wikidata service entry (P729),L204,Girdleness Lighthouse,57.139,-2.04858,,,Girdle ?[Nn]ess
+Buchan Ness,light,headland,1827.0,Wikidata inception (P571),L178,Buchan Ness Lighthouse,57.4704,-1.77451,,,"Buchan ?[Nn]ess | Boddam(?!,? Shetland)"
+Rattray Head,light,headland,1895.0,Wikidata inception (P571),L241,Rattray Head Lighthouse,57.6101,-1.81649,,,Rattray
+Covesea Skerries,light,rock,1846.0,Wikidata inception (P571),L187,Covesea Skerries Lighthouse,57.7241,-3.3385,,,Covesea | Coversea | Halliman
+Tarbat Ness,light,headland,1830.0,Wikidata service entry (P729),L260,Tarbat Ness Lighthouse,57.865059525,-3.776604853,,,Tarbat ?[Nn]ess | Tarbet Ness
+Noss Head,light,headland,1849.0,Wikidata service entry (P729),L232,Noss Head Lighthouse,58.479,-3.05092,,,Noss Head
+Duncansby Head,light,headland,1924.0,Wikidata inception (P571),L192,Duncansby Head Lighthouse,58.643980555,-3.025188888,,,Duncansby | Duncansbay
+Pentland Skerries,light,rock,1794.0,Wikidata inception (P571),L237,Pentland Skerries High Light,58.69019444,-2.92472222,,,Pentland Skerries
+Stroma,light,island,1890.0,Wikidata inception (P571),L257,Stroma Lighthouse,58.69591,-3.116663,,,Stroma
+Dunnet Head,light,headland,1831.0,Wikidata inception (P571),L193,Dunnet Head Lighthouse,58.6714,-3.37637,,,Dunnet Head
+Holburn Head,light,headland,1862.0,Wikidata inception (P571),L205,Holburn Head Lighthouse,58.6146,-3.53948,,,Holburn Head
+Strathy Point,light,headland,1958.0,Wikidata inception (P571),L256,Strathy Point Lighthouse,58.59874,-4.018625,,,Strathy
+Cape Wrath,light,headland,1828.0,Wikidata inception (P571),L181,Cape Wrath Lighthouse,58.62563333,-4.9992,,,Cape Wrath
+Cantick Head,light,headland,1858.0,Wikidata inception (P571),L180,Cantick Head Lighthouse,58.7871,-3.13132,,,Cantick
+Hoy Sound,light,island,1851.0,Wikidata inception (P571),L209;L210,Hoy Sound High Light;Hoy Sound Low Light,58.938022618000005,-3.2915969575000004,,,Hoy Sound | Graemsay
+Copinsay,light,island,1915.0,Wikidata inception (P571),L184,Copinsay Lighthouse,58.896430555,-2.672027777,,,Copinsay
+Auskerry,light,island,1866.0,Wikidata inception (P571),L171,Auskerry Lighthouse,59.0259,-2.57228,,,Auskerry
+Sanday,light,island,1806.0,Wikidata inception (P571),L254,Start Point Lighthouse,59.2774,-2.37592,,,"\bSanday\b | Start Point,? (Sanday|Orkney)"
+North Ronaldsay,light,island,1789.0,Wikidata service entry (P729),L231;L230,Dennis Head Old Beacon;North Ronaldsay Lighthouse,59.387,-2.376345,,,North Ronaldsay
+Noup Head,light,headland,1898.0,Wikidata inception (P571),L233,Noup Head Lighthouse,59.3311,-3.0703,,,Noup Head
+Sule Skerry,light,rock,1895.0,Wikidata inception (P571),L258,Sule Skerry Lighthouse,59.0843,-4.40655,,,Sule Skerry
+Fair Isle,light,island,1892.0,Wikidata inception (P571),L197;L198,Fair Isle North Lighthouse;South Lighthouse,59.533,-1.631245,,,Fair Isle
+Sumburgh Head,light,headland,1821.0,Wikidata inception (P571),L259,Sumburgh Head Lighthouse,59.8539,-1.2747,,,Sumburgh
+Bressay,light,island,1858.0,Wikidata service entry (P729),L176,Bressay Lighthouse,60.12,-1.12152,,,Bressay
+Out Skerries,light,island,1858.0,Wikidata inception (P571),L235,Bound Skerry Lighthouse,60.4244,-0.728053,,,Out Skerries | Bound Skerry
+Muckle Flugga,light,rock,1858.0,Wikidata service entry (P729),L225,Muckle Flugga Lighthouse,60.855272795,-0.885261534,,,Muckle Flugga
+Esha Ness,light,headland,1929.0,Wikidata service entry (P729),L196,Esha Ness Lighthouse,60.4892,-1.62733,,,Esha ?[Nn]ess
+Butt of Lewis,light,headland,1862.0,Wikidata inception (P571),L179,Butt of Lewis Lighthouse,58.515625195,-6.260874338,,,Butt of Lewis
+Tiumpan Head,light,headland,1900.0,Wikidata service entry (P729),L261,Tiumpan Head Lighthouse,58.260984,-6.1388329,,,Tiumpan
+Eilean Glas,light,island,1789.0,Wikidata service entry (P729),L194,Eilean Glas Lighthouse,57.8569,-6.642,,,Eilean Glas | Scalpay
+Flannan Isles,light,island,1899.0,Wikidata inception (P571),L202,Flannan Isles Lighthouse,58.28811,-7.588285,,,Flannan
+Monach Isles,light,island,1864.0,Wikidata inception (P571),L224,Old Monach Lighthouse,57.525817,-7.69605,,,Monach
+Barra Head,light,headland,1833.0,Wikidata service entry (P729),L173,Barra Head Lighthouse,56.7854,-7.65355,,,Barra Head
+Neist Point,light,headland,1909.0,Wikidata service entry (P729),L228,Neist Point Lighthouse,57.4234,-6.78827,,,Neist
+Rua Reidh,light,headland,1912.0,Wikidata inception (P571),L245,Rua Reidh Lighthouse,57.8588,-5.81183,,,Rua Reidh
+Stoer Head,light,headland,1870.0,Wikidata inception (P571),L255,Stoer Head Lighthouse,58.240017012,-5.402573387,,,Stoer
+Ardnamurchan,light,headland,1849.0,Wikidata inception (P571),L170,Ardnamurchan Lighthouse,56.7271,-6.22602,,,Ardnamurchan
+Skerryvore,light,rock,1844.0,Wikidata inception (P571),L251,Skerryvore Lighthouse,56.3231,-7.11624,,,Skerryvore
+Dubh Artach,light,rock,1872.0,Wikidata inception (P571),L191,Dubh Artach Lighthouse,56.1331,-6.63273,,,Dubh Artach | Dhu Heartach | Dubh Heartach
+Lismore,light,island,1833.0,Wikidata inception (P571),L218,Lismore Lighthouse,56.4556,-5.60749,,,"Lismore(?!,? County) | Musdile"
+Rinns of Islay,light,headland,1825.0,Wikidata inception (P571),L242,Rinns of Islay Lighthouse,55.6731,-6.51323,,,Rh?inns of Islay | Orsay
+Ruvaal (Islay),light,headland,1859.0,Wikidata inception (P571),L247,Ruvaal Lighthouse,55.9364,-6.12353,,,Ruvaal | Rhuvaal
+Mull of Kintyre,light,headland,1788.0,Wikidata inception (P571),L227,Mull of Kintyre Lighthouse,55.3105,-5.80337,,,Mull of (Kintyre|Cantyre)
+Sanda,light,island,1850.0,Wikidata inception (P571),L248,Sanda Island Lighthouse,55.275,-5.582777777,,,\bSanda\b(?! ?y)
+Davaar,light,island,1854.0,Wikidata inception (P571),L190,Davaar Lighthouse,55.4281,-5.54052,,,Davaar
+Pladda,light,island,1790.0,Wikidata inception (P571),L238,Pladda Lighthouse,55.425129,-5.118362,,,Pladda
+Ailsa Craig,light,island,1886.0,Wikidata service entry (P729),L169,Ailsa Craig Lighthouse,55.251666666,-5.106666666,,,Ailsa
+Turnberry,light,headland,1873.0,Wikidata service entry (P729),L265,Turnberry Lighthouse,55.3258,-4.84464,,,Turnberry
+Lady Isle,light,island,1903.0,Wikidata inception (P571),L217,Lady Isle Lighthouse,55.52713,-4.733949,,,Lady Isle
+Cloch Point,light,headland,1797.0,Wikidata inception (P571),L183,Cloch Lighthouse,55.9422,-4.87864,,,Cloch\b
+Toward Point,light,headland,1812.0,Wikidata inception (P571),L264,Toward Point Lighthouse,55.8621,-4.97974,,,Toward Point
+Corsewall,light,headland,1817.0,Wikidata service entry (P729),L186,Corsewall Lighthouse,55.007,-5.159166666,,,Corsewall
+Killantringan,light,headland,1900.0,Wikidata inception (P571),L215,Killantringan Lighthouse,54.8618,-5.14692,,,"Killantringan | Black Head,? Wigtownshire"
+Mull of Galloway,light,headland,1830.0,Wikidata inception (P571),L226,Mull of Galloway Lighthouse,54.6349,-4.85719,,,Mull of Galloway
+Little Ross,light,island,1843.0,Wikidata inception (P571),L222,Little Ross Lighthouse,54.7657,-4.08498,,,Little Ross
+Southerness,light,headland,1800.0,Wikipedia list note,L252,Southerness lighthouse,54.872823,-3.59518,,,Southerness | Southernness | Satterness
+Calf of Man,light,island,1815.0,Wikipedia list,L390;L389,Calf of Man (high);Calf of Man (low),54.05280833333333,-4.828741666666666,,,Calf of Man | Calf Sound
+Chicken Rock,light,rock,1875.0,Wikipedia list,L393,Chicken Rock,54.03785,-4.838583333333333,,,Chicken Rock | \bthe Chickens\b
+Point of Ayre (Man),light,headland,1818.0,Wikipedia list,L397,Point of Ayre,54.41598333333334,-4.368516666666666,,,Point of Ayre
+Langness,light,headland,1880.0,Wikipedia list,L395,Langness,54.05388888888889,-4.625,,,Lang ?[Nn]ess | Dreswick
+Douglas Head,light,headland,1857.0,Wikipedia list,L394,Douglas Head,54.14331666666666,-4.465783333333333,,,Douglas Head
+Maughold Head,light,headland,1914.0,Wikipedia list,L396,Maughold Head,54.295566666666666,-4.30975,,,Maughold
+Tuskar Rock,light,rock,1815.0,Wikipedia list,L334,Tuskar Rock Lighthouse,52.203,-6.207,,,Tuskar
+Wicklow Head,light,headland,1781.0,Wikipedia list,L333;L388,Wicklow Head Lighthouse;Wicklow Head High (1781),52.9656,-6.00025,,,Wicklow Head
+Rockabill,light,rock,1860.0,Wikipedia list,L327,Rockabill Lighthouse,53.597,-6.005,,,Rockabill
+Baily (Howth),light,headland,1814.0,Wikipedia list,L328,Baily Lighthouse,53.362,-6.053,an earlier light on Howth Head before the 1814 tower in the data,,Baily | Howth Head
+St John's Point (Down),light,headland,1844.0,Wikipedia list,L322,"St John's Point Lighthouse, County Down",54.227,-5.66,,,"St\.? John'?s Point(?!,? (County Donegal|Donegal)) | Dundrum Bay"
+South Rock,light,rock,1797.0,Wikipedia list,L386,South Rock (Kilwarlin),54.403,-5.3833,,,South Rock | Kilwarlin
+Maidens,light,rock,1829.0,Wikipedia list,L317;L387,Maidens Lighthouse;West Maidens,54.96235,-5.7208,,,\b[Tt]he Maidens\b | Maidens Rocks?
+Rathlin Island,light,island,1856.0,Wikipedia list,L315;L314;L316,Rathlin East (Altacarry Head) Lighthouse;Rathlin West Lighthouse;Rue Point Lighthouse,55.28733333333334,-6.214666666666666,,,Rathlin(?! O'?Birne)
+Inishtrahull,light,island,1812.0,Wikipedia list,L312,Inishtrahull Lighthouse,55.431,-7.244,,,Inishtrahull
+Inishowen Head,light,headland,1837.0,Wikipedia list,L313;L382,Inishowen Lighthouse;Inishowen East,55.226299999999995,-6.928050000000001,,,Inishowen Head | Dunagree
+Fanad Head,light,headland,1817.0,Wikipedia list,L311,Fanad Head Lighthouse,55.276,-7.632,,,Fanad | Fannet
+Tory Island,light,island,1832.0,Wikipedia list,L308,Tory Island Lighthouse,55.273,-8.249,,,Tory Island
+Arranmore,light,island,1798.0,Wikipedia list,L307,Arranmore Lighthouse,55.015,-8.561,,,Arranmore | Aranmore
+Rathlin O'Birne,light,island,1856.0,Wikipedia list,L305,Rathlin O'Birne Lighthouse,54.664,-8.833,,,Rathlin O'?Birne
+Eagle Island,light,island,1835.0,Wikipedia list,L297,Eagle Island lighthouse,54.284,-10.093,,,Eagle Island
+Blacksod,light,headland,1864.0,Wikipedia list,L295;L296,Blacksod Lighthouse;Blackrock Mayo Lighthouse,54.0835,-10.1905,,,Blacksod
+Clare Island,light,island,1818.0,Wikipedia list,L374,Clare Island,53.8275,-9.9834,,,Clare Island
+Slyne Head,light,headland,1836.0,Wikipedia list,L292,Slyne Head Lighthouse,53.4,-10.234,,,Slyne Head
+Aran Islands,light,island,1818.0,Wikipedia list,L381;L291;L287;L290,Inishmore;Eeragh Lighthouse;Inisheer Lighthouse;Straw Island Lighthouse,53.110099999999996,-9.6793,,,Aran Islands | Isles of Aran | Inishmore | Inisheer | Eeragh | Arran Islands
+Loop Head,light,headland,1854.0,Wikipedia list,L286,Loop Head,52.561,-9.932,an earlier light at Loop Head in the 17th century,,Loop Head
+Kilcredaun,light,headland,1824.0,Wikipedia list,L383,Kilcredaun Head,52.5798,-9.7097,,,Kilcredaun | Kilcradan
+Inishtearaght,light,island,1870.0,Wikipedia list,L281,Inishtearaght Lighthouse,52.076,-10.661,,,Tearaght
+Skelligs,light,rock,1826.0,Wikipedia list,L278;L385,Skelligs Lighthouse;Skelling Michael (High),51.7691,-10.5429,,,Skellig
+Bull and Calf Rocks,light,rock,1866.0,Wikipedia list,L372;L277,Calf Rock;Bull Rock Lighthouse,51.588499999999996,-10.28865,,,Bull Rock | Calf Rock | Dursey
+Crookhaven,light,headland,1843.0,Wikipedia list,L271,Crookhaven Lighthouse,51.477,-9.705,,,Crookhaven
+Fastnet,light,rock,1854.0,Wikipedia list,L345,Fastnet Lighthouse,51.389,-9.603,,,Fastnet
+Cape Clear,light,island,1818.0,Wikipedia list,L373,Cape Clear,51.4345,-9.4846,,,Cape Clear
+Galley Head,light,headland,1878.0,Wikipedia list,L343,Galley Head Lighthouse,51.53,-8.954,,,Galley Head
+Old Head of Kinsale,light,headland,1665.0,Wikipedia list,L342,Old Head of Kinsale Lighthouse,51.605,-8.534,first lit before the wreck record begins,,Old Head of Kinsale
+Roche's Point,light,headland,1817.0,Wikipedia list,L340,Roche's Point Lighthouse,51.793,-8.255,,,Roche'?s Point
+Ballycotton,light,island,1851.0,Wikipedia list,L339,Ballycotton lighthouse,51.825,-7.986,,,Ballycotton
+Mine Head,light,headland,1851.0,Wikipedia list,L338,Mine Head Lighthouse,51.993,-7.587,,,Mine Head
+Hook Head,light,headland,,,L336,Hook Lighthouse,52.124,-6.93,a light at Hook Head since the Middle Ages,,Hook Head | Hook Point | Hook Tower
+Casquets,light,rock,1724.0,Wikidata inception (P571),L405,Casquets lighthouses,49.72194444,-2.37694444,first lit before the wreck record begins,,Casquets? | Caskets
+Les Hanois,light,rock,1862.0,Wikidata inception (P571),L406,Les Hanois Lighthouse,49.43361111,-2.70027778,,,Hanois
+Sark,light,island,1913.0,Wikidata inception (P571),L411,Sark Lighthouse,49.43638889,-2.34555556,,,\bSark\b
+Manacles,control,rock,,,,,50.04548,-5.0472,,OS Open Names: The Manacles,Manacle
+Runnelstone,control,rock,,,,,50.03534,-5.67911,,"OS Open Names: Gwennap Head, the nearest gazetteer point to the Runnel Stone",Runnel ?[Ss]tone | Rundle ?[Ss]tone
+Brisons,control,rock,,,,,50.12036,-5.72213,,OS Open Names: The Brisons,Brisons
+Chesil Beach,control,sands,,,,,50.63334,-2.57026,,OS Open Names: Chesil Beach,Chesil | Chesil Bank
+St Alban's Head,control,headland,,,,,50.57824,-2.05597,,OS Open Names: St Alban's Head,St\.? Alban'?s Head | St\.? Aldhelm'?s Head
+Kimmeridge,control,rock,,,,,50.59983,-2.11664,,OS Open Names: Kimmeridge Ledges,Kimmeridge
+Doom Bar,control,sands,,,,,50.56034,-4.93603,,OS Open Names: The Doom Bar,Doom Bar | Dun Bar
+Dodman,control,headland,,,,,50.22048,-4.80157,,OS Open Names: Dodman Point,Dodman
+Rame Head,control,headland,,,,,50.31219,-4.22176,,OS Open Names: Rame Head,Rame Head
+Prawle Point,control,headland,,,,,50.2034,-3.72117,,OS Open Names: Prawle Point,Prawle
+Bolt Head and Bolt Tail,control,headland,,,,,50.22673,-3.82909,,OS Open Names: midpoint of Bolt Head and Bolt Tail,Bolt (Head|Tail)
+Selsey Bill,control,headland,,,,,50.72341,-0.78502,,OS Open Names: Selsey Bill,Selsey
+Carr Rocks,control,rock,,,,,56.29367,-2.57409,,OS Open Names: Carr Brigs,Carr Rocks? | Carr Brigs

@@ -1,0 +1,457 @@
+light_id,name,location,lat,lon,list,section,year_first_lit,year_source,list_years_all,list_year_cell,wd_service,wd_inception,wd_end,decommissioned,qid,notes,site,site_first_lit,site_year_source
+L001,Anvil Point Lighthouse,Anvil Point,50.59194444,-1.96,England,Active lighthouses,1881.0,Wikipedia list,1881,1881,,,,,,,Anvil Point,1881.0,Wikipedia list
+L002,Bamburgh Lighthouse,Bamburgh,55.616555555556,-1.7241666666667,England,Active lighthouses,1910.0,Wikipedia list,1910,1910,,,,,,,Bamburgh,1910.0,Wikipedia list
+L003,Beachy Head Lighthouse,Beachy Head,50.733761,0.241459,England,Active lighthouses,1902.0,Wikipedia list,1902,1902,,,,,,,Beachy Head,1834.0,Wikipedia list
+L004,Berkeley Pill Front light,Severn Estuary,51.6998,-2.4901,England,Active lighthouses,1937.0,Wikipedia list,1937,1937,,1937.0,,,Q105204990,,,,
+L005,Berkeley Pill Rear light,Severn Estuary,51.6982,-2.4904,England,Active lighthouses,1937.0,Wikipedia list,1937,1937,,1937.0,,,Q105205194,,,,
+L006,Berry Head Lighthouse,Berry Head,50.399583333333,-3.4834444444444,England,Active lighthouses,1906.0,Wikipedia list,1906,1906,,,,,,,Berry Head,1906.0,Wikipedia list
+L007,Berwick Lighthouse,Berwick-upon-Tweed,55.764766666667,-1.9851527777778,England,Active lighthouses,1826.0,Wikipedia list,1826,1826,,,,,,,,,
+L008,Bishop Rock Lighthouse,Bishop Rock,49.871666666667,-6.445,England,Active lighthouses,1858.0,Wikipedia list,1858,1858,,,,,,,Bishop Rock,1858.0,Wikipedia list
+L009,Bull Point Lighthouse,Mortehoe,51.1992,-4.20111,England,Active lighthouses,1879.0,Wikipedia list,1879,1879,,,,,,,Bull Point,1879.0,Wikipedia list
+L010,Burnham-on-Sea Low Lighthouse,Burnham-on-Sea,51.248447,-3.005847,England,Active lighthouses,1832.0,Wikipedia list,1832,1832,,,,,,Inactive between 1969-1993. Previously operated by Trinity House.,,,
+L011,Chapel Rock Lighthouse,Gloucestershire,51.607119444444,-2.6534166666667,England,Active lighthouses,1907.0,Wikipedia list,1907,1907,,,,,,,,,
+L012,Coquet Lighthouse,Hauxley,55.334,-1.5396,England,Active lighthouses,1841.0,Wikipedia list,1841,1841,,,,,,,Coquet Island,1841.0,Wikipedia list
+L013,Cromer Lighthouse,Cromer,52.924648,1.316609,England,Active lighthouses,1833.0,Wikipedia list,1833,1833,,,,,,,,,
+L014,Crow Point Lighthouse,Braunton Burrows,51.066166666667,-4.1898333333333,England,Active lighthouses,1954.0,Wikipedia list,1954,1954,,,,,,,,,
+L015,Dungeness Lighthouse,Dungeness,50.9135,0.975962,England,Active lighthouses,1961.0,Wikipedia list,1961,1961,,,,,,,Dungeness,1904.0,Wikipedia list
+L016,Eddystone Lighthouse,Eddystone Rocks,50.18,-4.265,England,Active lighthouses,1882.0,Wikipedia list,1882,1882,,,,,,,Eddystone,1698.0,hand override
+L017,Farne Lighthouse,Farne Islands,55.615414,-1.655825,England,Active lighthouses,1811.0,Wikipedia list,1811,1811,,,,,,,Farne Islands,1811.0,Wikipedia list
+L018,Flamborough Head Lighthouse,Flamborough,54.116397,-0.082553,England,Active lighthouses,1806.0,Wikipedia list,1806,1806,,,,,,,Flamborough Head,1806.0,Wikipedia list
+L019,Pharos Lighthouse,Fleetwood,53.92650231,-3.007534362,England,Active lighthouses,1840.0,Wikipedia list,1840,1840,,,,,,,,,
+L020,Beach Lighthouse,Fleetwood,53.928548,-3.009091,England,Active lighthouses,1840.0,Wikipedia list,1840,1840,,,,,,,,,
+L021,Folkestone Lighthouse,Folkestone,51.076038,1.194805,England,Active lighthouses,1860.0,Wikipedia list,1860,1860,,,,,,,,,
+L022,Godrevy Lighthouse,St Ives,50.242494,-5.400219,England,Active lighthouses,1859.0,Wikipedia list,1859,1 Mar 1859,,,,,,,Godrevy,1859.0,Wikipedia list
+L023,Gorleston South Pier Lighthouse,Gorleston-on-Sea,52.5721,1.738,England,Active lighthouses,1955.0,Wikipedia list,1955,1955,,,,,,,,,
+L024,Guile Point East Lighthouse,Lindisfarne,55.6582,-1.79317,England,Active lighthouses,1859.0,Wikipedia list,1859,1859,,,,,,name=nutth|Previously operated by Newcastle-upon-Tyne Trinity House.,Holy Island,1826.0,Wikipedia list
+L025,Happisburgh Lighthouse,Happisburgh,52.8195,1.53867,England,Active lighthouses,1791.0,Wikipedia list,1791,1791,,,,,,,Happisburgh,1791.0,Wikipedia list
+L026,Hartland Point Lighthouse,Hartland Point,51.022143,-4.525475,England,Active lighthouses,1874.0,Wikipedia list,1874,1874,,,,,,"Still listed by Trinity House, but light now mounted separately.",Hartland Point,1874.0,Wikipedia list
+L027,Heugh Lighthouse,Hartlepool,54.6965,-1.1761111111111,England,Active lighthouses,1927.0,Wikipedia list,1927,1927,,,,,,,,,
+L028,Herd Groyne Light,South Shields,55.008022222222,-1.4240805555556,England,Active lighthouses,1882.0,Wikipedia list,1882,1882,,1882.0,,,Q26525857,,,,
+L029,Heugh Hill Lighthouse,Lindisfarne,55.66821,-1.7996,England,Active lighthouses,1826.0,Wikipedia list,1826,1826,,,,,,name=nutth,Holy Island,1826.0,Wikipedia list
+L030,Hilbre Island Lighthouse,Hilbre Island,53.38333333,-3.22861111,England,Active lighthouses,1927.0,Wikipedia list,1927,1927,,,,,,Previously operated by Mersey Docks and Harbour Company.,,,
+L031,Hurst Point Lighthouse,Hurst Castle,50.7081,-1.55028,England,Active lighthouses,1867.0,Wikipedia list,1867,1867,,,,,,,Hurst Point,1786.0,hand override
+L032,Ilfracombe Lighthouse,Ilfracombe,51.211136111111,-4.1130083333333,England,Active lighthouses,1819.0,Wikipedia list,1819,1819,,,,,,,,,
+L033,Instow Front Lighthouse,Instow,51.06035,-4.177728,England,Active lighthouses,1820.0,Wikipedia list,1820,1820,,,,,,,,,
+L034,Instow Rear Lighthouse,Instow,51.058666666667,-4.1725833333333,England,Active lighthouses,1820.0,Wikipedia list,1820,1820,,,,,,,,,
+L035,Killingholme High Lighthouse,South Killingholme,53.647172,-0.21885,England,Active lighthouses,1876.0,Wikipedia list,1876,1876,,,,,,name=hth|Previously operated by Hull Trinity House.,,,
+L036,Killingholme South Low Lighthouse,South Killingholme,53.64654,-0.216198,England,Active lighthouses,1836.0,Wikipedia list,1836,1836,,,,,,name=hth,,,
+L037,Lizard Lighthouse,Lizard Point,49.9602,-5.20206,England,Active lighthouses,1751.0,Wikipedia list,1751,1751,,,,,,,Lizard,1751.0,Wikipedia list
+L038,Longships Lighthouse,Longships,50.06686,-5.74677,England,Active lighthouses,1875.0,Wikipedia list,1875,1875,,,,,,,Longships,1795.0,hand override
+L039,Longstone Lighthouse,Farne Islands,55.643781,-1.610869,England,Active lighthouses,1826.0,Wikipedia list,1826,1826,,,,,,,Farne Islands,1811.0,Wikipedia list
+L040,Lowestoft Lighthouse,Lowestoft,52.486667,1.758333,England,Active lighthouses,1874.0,Wikipedia list,1874,1874,,,,,,,,,
+L041,Lundy North Lighthouse,"Torridge, Lundy",51.201738,-4.677248,England,Active lighthouses,1897.0,Wikipedia list,1897,1897,,,,,,,Lundy,1820.0,Wikipedia list
+L042,Lundy South Lighthouse,"Torridge, Lundy",51.162054,-4.655798,England,Active lighthouses,1897.0,Wikipedia list,1897,1897,,,,,,,Lundy,1820.0,Wikipedia list
+L043,Lyde Rock lighthouse,Severn Estuary,51.6147,-2.6444,England,Active lighthouses,2008.0,Wikipedia list,2008,2008,,,,,,,,,
+L044,Lynmouth Foreland Lighthouse,Foreland Point,51.245389,-3.786681,England,Active lighthouses,1900.0,Wikipedia list,1900,1900,,,,,,,Foreland Point,1900.0,Wikipedia list
+L045,Maryport New Lighthouse,Maryport,54.7177446,-3.5105728,England,Active lighthouses,1996.0,Wikipedia list,1996,1996,,,,,,,,,
+L046,Nab Tower,Nab Rock,50.6675,-0.951167,England,Active lighthouses,1918.0,Wikipedia list,1918,1918,1918.0,1918.0,,,Q6956691,,,,
+L047,Needles Lighthouse,Alum Bay,50.66222222,-1.59166667,England,Active lighthouses,1859.0,Wikipedia list,1859,1859,,,,,,,Needles,1786.0,hand override
+L048,North Foreland Lighthouse,North Foreland,51.374928,1.445091,England,Active lighthouses,1691.0,Wikipedia list,1691,1691,,,,,,,North Foreland,1691.0,Wikipedia list
+L049,Pendeen Lighthouse,Pendeen,50.1649665,-5.671592,England,Active lighthouses,1900.0,Wikipedia list,1900,1900,,,,,,,Pendeen,1900.0,Wikipedia list
+L050,Peninnis Lighthouse,Peninnis Head,49.9046,-6.3035,England,Active lighthouses,1911.0,Wikipedia list,1911,1911,,,,,,,,,
+L051,Plover Scar Lighthouse,Cockersand Abbey,53.981512,-2.882594,England,Active lighthouses,1847.0,Wikipedia list,1847,1847,,,,,,,,,
+L052,Plymouth Breakwater Lighthouse,Plymouth Breakwater,50.334553,-4.158773,England,Active lighthouses,1844.0,Wikipedia list,1844,1844,,,,,,,,,
+L053,Portishead Point Lighthouse,Portishead,51.4939,-2.77194,England,Active lighthouses,1931.0,Wikipedia list,1931,1931,,,,,,,,,
+L054,Portland Bill Lighthouse,Portland Bill,50.514281,-2.456396,England,Active lighthouses,1903.0,Wikipedia list,1903,1903,1869.0,1869.0,1906.0,,Q7084394,,Portland Bill,1869.0,Wikipedia list
+L055,Portland Breakwater Lighthouse,Isle of Portland,50.585944444444,-2.4178611111111,England,Active lighthouses,1905.0,Wikipedia list,1905,1905,,,,,,,,,
+L056,Rampside Lighthouse,Rampside,54.086435,-3.161195,England,Active lighthouses,1875.0,Wikipedia list,1875,1875,,,,,,,,,
+L057,Ramsgate West Pier Lighthouse,Ramsgate,51.327685,1.421474,England,Active lighthouses,1842.0,Wikipedia list,1842,1842,,,,,,,,,
+L058,Roker Pier lighthouse,Roker,54.921263888889,-1.35255,England,Active lighthouses,1903.0,Wikipedia list,1903,1903,,,,,,,,,
+L059,Round Island Lighthouse,Tresco,49.978898,-6.322992,England,Active lighthouses,1887.0,Wikipedia list,1887,1887,,,,,,,Round Island,1887.0,Wikipedia list
+L060,St Anthony's Lighthouse,St Anthony Head,50.141208,-5.015851,England,Active lighthouses,1835.0,Wikipedia list,1835,1835,,,,,,,St Anthony Head,1835.0,Wikipedia list
+L061,St Bees Lighthouse,St Bees Head,54.5137,-3.6365,England,Active lighthouses,1822.0,Wikipedia list,1822,1822,,,,,,,St Bees Head,1822.0,Wikipedia list
+L062,St. Catherine's Lighthouse,St. Catherine's Point,50.5757,-1.2979,England,Active lighthouses,1838.0,Wikipedia list,1838,1838,,,,,,,St Catherine's Point,1838.0,Wikipedia list
+L063,Scarborough Lighthouse,Scarborough,54.281885,-0.389923,England,Active lighthouses,1931.0,Wikipedia list,1931,1931,,,,,,,,,
+L064,Shoreham Lighthouse,Kingston by Sea,50.83087226,-0.248213839,England,Active lighthouses,1846.0,Wikipedia list,1846,1846,,,,,,,,,
+L065,South Gare Lighthouse,South Gare,54.647413,-1.137455,England,Active lighthouses,1884.0,Wikipedia list,1884,1884,,,,,,,,,
+L066,Southwold Lighthouse,Southwold,52.32722,1.68137,England,Active lighthouses,1887.0,Wikipedia list,1887,1887,,,,,,,,,
+L067,Start Point Lighthouse,Start Point,50.222439,-3.642282,England,Active lighthouses,1836.0,Wikipedia list,1836,1836,,,,,,,Start Point (Devon),1836.0,Wikipedia list
+L068,Tater Du Lighthouse,Tregurnow,50.052,-5.57667,England,Active lighthouses,1965.0,Wikipedia list,1965,1965,,,,,,,,,
+L069,Teignmouth Lighthouse,Teignmouth,50.542496,-3.496815,England,Active lighthouses,1845.0,Wikipedia list,1845,1845,,,,,,,,,
+L070,Thorngumbald Clough High Lighthouse,Paull,53.708086,-0.225611,England,Active lighthouses,1870.0,Wikipedia list,1870,1870,,,,,,name=hth,,,
+L071,Thorngumbald Clough Low Lighthouse,Paull,53.708797,-0.226884,England,Active lighthouses,1870.0,Wikipedia list,1870,1870,,,,,,name=hth,,,
+L072,Trevose Head Lighthouse,Trevose Head,50.549232,-5.035141,England,Active lighthouses,1847.0,Wikipedia list,1847,1847,,,,,,,Trevose Head,1847.0,Wikipedia list
+L073,Tynemouth North Pier light,Tynemouth,55.01451,-1.402941,England,Active lighthouses,1903.0,Wikipedia list,1903,1903,,1903.0,,,Q28465875,,,,
+L074,Tyne South Pier light,South Shields,55.011208333333,-1.4009805555556,England,Active lighthouses,1895.0,Wikipedia list,1895,1895,,1895.0,,,Q28465917,,,,
+L075,Walney Lighthouse,Walney Island,54.0486,-3.1772,England,Active lighthouses,1804.0,Wikipedia list,1804,1804,,,,,,,Walney,1804.0,Wikipedia list
+L076,Watchet Harbour Lighthouse,Watchet,51.183,-3.3289,England,Active lighthouses,1862.0,Wikipedia list,1862,1862,,,,,,,,,
+L077,Whitby Lighthouse,Whitby,54.4778,-0.568333,England,Active lighthouses,1858.0,Wikipedia list,1858,1858,,,,,,,,,
+L078,Whitby East Pier beacon,Whitby,54.494116666667,-0.6123,England,Active lighthouses,1914.0,Wikipedia list,1914,1914,,1914.0,,,Q28465913,,,,
+L079,Whitby West Pier beacon,Whitby,54.494216666667,-0.61325,England,Active lighthouses,1914.0,Wikipedia list,1914,1914,,1914.0,,,Q28465912,,,,
+L080,West Pier Lighthouse,Whitehaven,54.552817,-3.598568,England,Active lighthouses,1839.0,Wikipedia list,1839,1839,,,,,,,,,
+L081,Whitgift Lighthouse,Whitgift,53.698837,-0.757552,England,Active lighthouses,,none,,,,,,,,,,,
+L082,Wolf Rock Lighthouse,Wolf Rock,49.9453,-5.80833,England,Active lighthouses,1869.0,Wikipedia list,1869,1869,,,,,,,Wolf Rock,1869.0,Wikipedia list
+L083,Belle Tout Lighthouse,Beachy Head,50.7382,0.2145,England,Inactive lighthouses,1834.0,Wikipedia list,1834,1834,,,,,,Replaced by Beachy Head Lighthouse.,Beachy Head,1834.0,Wikipedia list
+L084,Bidston Lighthouse,Bidston Hill,53.401096,-3.074251,England,Inactive lighthouses,1873.0,Wikipedia list,1873,1873,,,,,,,,,
+L085,Black Nore Lighthouse,Portishead,51.4847,-2.79972,England,Inactive lighthouses,1894.0,Wikipedia list,1894,1894,,,,,,,,,
+L086,Blyth High Light,Blyth,55.125471,-1.500052,England,Inactive lighthouses,1788.0,Wikipedia list,1788,1788,,1788.0,1985.0,,Q26652579,,,,
+L087,Trinity Buoy Wharf,London Borough of Tower Hamlets,51.507722222222,0.0083055555555556,England,Inactive lighthouses,1863.0,Wikipedia list,1863,1863,,,,,,Formerly used for lighting trials for Trinity House.,,,
+L088,Brownsman Lighthouse,Farne Islands,55.634221,-1.62564,England,Inactive lighthouses,1811.0,Wikipedia list,1811,1811,,,,,,Replaced by Longstone Lighthouse in 1826.,Farne Islands,1811.0,Wikipedia list
+L089,Burnham-on-Sea High Lighthouse,Burnham-on-Sea,51.24891,-2.999065,England,Inactive lighthouses,1832.0,Wikipedia list,1832,1832,,,,,,,,,
+L090,Burnham-on-Sea Round Tower,Burnham-on-Sea,51.2397,-2.99833,England,Inactive lighthouses,1801.0,Wikipedia list,1801,1801,,1801.0,1832.0,,Q4999732,Replaced by High & Low lights in 1832.,,,
+L091,Chalk Tower,Flamborough Head,54.118,-0.0895948,England,Inactive lighthouses,1674.0,Wikipedia list,1674,1674n/a,1674.0,1669.0,,,Q17554412,"Used as a daymark, but never lit.",,,
+L092,Dovercourt High Light,Dovercourt,51.9304,1.2753,England,Inactive lighthouses,1863.0,Wikipedia list,1863,1863,,1863.0,1917.0,,Q105232369,,,,
+L093,Dovercourt Low Light,Dovercourt,51.9301,1.2781,England,Inactive lighthouses,1863.0,Wikipedia list,1863,1863,,1863.0,1917.0,,Q105232486,,,,
+L094,Dubris Pharos,Dover Castle,51.1284,1.32298,England,Inactive lighthouses,200.0,Wikidata inception (P571),,2nd century,,200.0,,,Q3715786,Also known as the Dover Pharos or Roman Pharos. Dating varies from AD 50 to 150.,,,
+L095,Dungeness Old Lighthouse,Dungeness,50.913758,0.969698,England,Inactive lighthouses,1904.0,Wikipedia list,1904,1904,,,,,,Replaced with Dungeness Lighthouse in 1961.,Dungeness,1904.0,Wikipedia list
+L096,Egypt Point light,Egypt Point,50.76732,-1.313902,England,Inactive lighthouses,1897.0,Wikipedia list,1897,1897,,1897.0,1989.0,,Q28465942,,,,
+L097,Ellesmere Port Lighthouse,Ellesmere Port,53.288,-2.892,England,Inactive lighthouses,1880.0,Wikipedia list,1880,1880,,,,,,,,,
+L098,Fish Quay High Light,North Shields Fish Quay,55.008725,-1.437907,England,Inactive lighthouses,1807.0,Wikipedia list,1807,1807,,1807.0,1999.0,,Q26480511,,,,
+L099,Fish Quay Low Light,North Shields Fish Quay,55.009124,-1.434512,England,Inactive lighthouses,1807.0,Wikipedia list,1807,1807,,1807.0,1999.0,,Q28465915,,,,
+L100,Gorleston Lighthouse,Gorleston-on-Sea,52.572172,1.732274,England,Inactive lighthouses,1878.0,Wikipedia list,1878,1878,,,,,,,,,
+L101,Gunfleet Lighthouse,Frinton-on-Sea,51.7792,1.3575,England,Inactive lighthouses,1850.0,Wikipedia list,1850,1850,,,,,,,Gunfleet,1850.0,Wikipedia list
+L102,Hale Head Lighthouse,Hale,53.322438888889,-2.7941972222222,England,Inactive lighthouses,1906.0,Wikipedia list,1906,1906,,,,,,,,,
+L103,Harwich High Lighthouse,Harwich,51.9445,1.28858,England,Inactive lighthouses,1818.0,Wikipedia list,1818,1818,,,,,,name=rd|Replaced by Dovercourt Lighthouses in 1863.,,,
+L104,Harwich Low Lighthouse,Harwich,51.9434,1.29096,England,Inactive lighthouses,1818.0,Wikipedia list,1818,1818,,,,,,name=rd,,,
+L105,Hodbarrow Beacon,Millom,54.1941,-3.25831,England,Inactive lighthouses,1866.0,Wikipedia list,1866,1866,,1866.0,1905.0,,Q17642355,Replaced by Hodbarrow Haverigg Lighthouse in 1905.,,,
+L106,Hodbarrow Haverigg Lighthouse,Haverigg,54.1904,-3.2675,England,Inactive lighthouses,1905.0,Wikipedia list,1905,1905,,,,,,,,,
+L107,Hoylake Lighthouse,"Hoylake, Wirral",53.39201,-3.182459,England,Inactive lighthouses,1865.0,Wikipedia list,1865,1865,,,,,,,,,
+L108,Old Hunstanton Lighthouse,Hunstanton,52.949629,0.493617,England,Inactive lighthouses,1840.0,Wikipedia list,1840,1840,,1665.0,,,Q32607271,,,,
+L109,Killingholme North Low Lighthouse,South Killingholme,53.649242,-0.21961,England,Inactive lighthouses,1851.0,Wikipedia list,1851,1851,,,,,,,,,
+L110,Leasowe Lighthouse,Leasowe,53.413166666667,-3.1257777777778,England,Inactive lighthouses,1763.0,Wikipedia list,1763,1763,,,,,,,,,
+L111,Lundy Old Light,"Torridge, Lundy",51.1673,-4.67319,England,Inactive lighthouses,1820.0,Wikipedia list,1820,1820,,1820.0,1897.0,,Q17536768,,Lundy,1820.0,Wikipedia list
+L112,Maryport Old Lighthouse,Maryport,54.716911994083,-3.5075538851969,England,Inactive lighthouses,1846.0,Wikipedia list,1846,1846,,,,,,,,,
+L113,New Brighton Lighthouse,New Brighton,53.4443,-3.04231,England,Inactive lighthouses,1830.0,Wikipedia list,1830,1830,,,,,,Also known as Perch Rock.,,,
+L114,Orfordness Lighthouse,Orford Ness,52.0839,1.5743,England,Inactive lighthouses,1792.0,Wikipedia list,1792,1792,,,,,,,Orford Ness,1792.0,Wikipedia list
+L115,Pakefield Lighthouse,Pakefield,52.437,1.7293,England,Inactive lighthouses,1832.0,Wikipedia list,1832,1832,,,,,,,,,
+L116,Paull Lighthouse,Paull,53.718939,-0.234323,England,Inactive lighthouses,1836.0,Wikipedia list,1836,1836,,,,,,,,,
+L117,Portland Bill High Light,Portland Bill,50.522303,-2.456431,England,Inactive lighthouses,1869.0,Wikipedia list,1869,1869,1869.0,1869.0,1906.0,,Q7084211,,Portland Bill,1869.0,Wikipedia list
+L118,Royal Sovereign Lighthouse,Eastbourne,50.7233,0.4355,England,Inactive lighthouses,1971.0,Wikipedia list,1971,1971,,,,,,,,,
+L119,St Agnes Lighthouse,St Agnes,49.8925,-6.34543,England,Inactive lighthouses,1680.0,Wikipedia list,1680,1680,,,,,,Replaced by Peninnis Lighthouse in 1911.,St Agnes,1680.0,Wikipedia list
+L120,St Catherine's Oratory,St. Catherine's Down,50.593154,-1.303963,England,Inactive lighthouses,1328.0,Wikidata service entry (P729),,1328,1328.0,1328.0,1547.0,,Q7587435,Britain's only remaining medieval lighthouse.,,,
+L121,St. Mary's Lighthouse,St Mary's Island,55.071701,-1.449599,England,Inactive lighthouses,1898.0,Wikipedia list,1898,1898,,,,,,,St Mary's Island,1898.0,Wikipedia list
+L122,Seaton Carew Lighthouse,Hartlepool,54.6669,-1.1891,England,Inactive lighthouses,1838.0,Wikipedia list,1838,1838,,,,,,Rebuilt in Hartlepool in 1995.,,,
+L123,Smeaton's Tower,Plymouth Hoe,50.3644,-4.14183,England,Inactive lighthouses,1759.0,Wikipedia list,1759,1759,,1759.0,1877.0,,Q3995634,Moved from Eddystone to Plymouth Hoe in 1883.,Eddystone,1698.0,hand override
+L124,Souter Lighthouse,Marsden,54.9705,-1.36409,England,Inactive lighthouses,1871.0,Wikipedia list,1871,1871,,,,,,,Souter (Whitburn),1871.0,Wikipedia list
+L125,South Foreland Upper Lighthouse,South Foreland,51.1404,1.3711,England,Inactive lighthouses,1843.0,Wikipedia list,1843,1843,,,,,,,South Foreland,1843.0,Wikipedia list
+L126,South Foreland Lower Lighthouse,South Foreland,51.14095291,1.376097,England,Inactive lighthouses,1846.0,Wikipedia list,1846,1846,,,,,,,South Foreland,1843.0,Wikipedia list
+L127,Southsea Castle lighthouse,Southsea Castle,50.778324,-1.089018,England,Inactive lighthouses,1828.0,Wikipedia list,1828,1828,,,,,,,,,
+L128,Spurn Lighthouse,Spurn Point,53.578975,0.118328,England,Inactive lighthouses,1895.0,Wikipedia list,1895,1895,,1852.0,1895.0,,Q26630126,,Spurn,1895.0,Wikipedia list
+L129,Winterton Lighthouse,Winterton-on-Sea,52.713,1.6953,England,Inactive lighthouses,1840.0,Wikipedia list,1840,1840,,,,,,,Winterton,1840.0,Wikipedia list
+L130,Withernsea Lighthouse,Withernsea,53.73091,0.028751,England,Inactive lighthouses,1894.0,Wikipedia list,1894,1894,,,,,,,,,
+L131,Wyre Light,Fleetwood,53.953,-3.027,England,Inactive lighthouses,1840.0,Wikipedia list,1840,1840,,1840.0,1979.0,,Q765973,,,,
+L132,West Bank Lighthouse,Sutton Bridge,52.8087,0.210826,England,Inactive lighthouses,1830.0,Wikipedia list,1830,1830s,,,,,,,,,
+L133,East Bank Lighthouse,Sutton Bridge,52.8083,0.213687,England,Inactive lighthouses,1830.0,Wikipedia list,1830,1830s,,,,,,,,,
+L134,Trwyn Du Lighthouse,,53.3129,-4.04068,Wales,Active lighthouses,1838.0,Wikidata inception (P571),,,,1838.0,,,Q1324554,,Penmon,1838.0,Wikidata inception (P571)
+L135,Point Lynas Lighthouse,,53.4161,-4.28917,Wales,Active lighthouses,1835.0,Wikidata service entry (P729),,,1835.0,1835.0,,,Q7208082,,Point Lynas,1835.0,Wikidata service entry (P729)
+L136,Skerries Lighthouse,,53.42122,-4.60817,Wales,Active lighthouses,1717.0,Wikidata inception (P571),,,,1717.0,,,Q15278045,,Skerries (Anglesey),1717.0,Wikidata inception (P571)
+L137,Holyhead Breakwater Lighthouse,,53.3309,-4.6193,Wales,Active lighthouses,1873.0,Wikidata inception (P571),,,,1873.0,,,Q15224746,,,,
+L138,South Stack Lighthouse,,53.30666667,-4.69944444,Wales,Active lighthouses,1809.0,Wikidata inception (P571),,,,1809.0,,,Q15278727,,South Stack,1809.0,Wikidata inception (P571)
+L139,Bardsey Lighthouse,,52.749888888,-4.799861111,Wales,Active lighthouses,1821.0,Wikidata inception (P571),,,,1821.0,,,Q10580915,,Bardsey,1821.0,Wikidata inception (P571)
+L140,St Tudwal’s Lighthouse,,52.798498,-4.4714058,Wales,Active lighthouses,1877.0,Wikidata inception (P571),,,,1877.0,,,Q15706061,,St Tudwal's,1877.0,Wikidata inception (P571)
+L141,Strumble Head Lighthouse,,52.02985,-5.0737927,Wales,Active lighthouses,1908.0,Wikidata inception (P571),,,,1908.0,,,Q7625316,,Strumble Head,1908.0,Wikidata inception (P571)
+L142,South Bishop Lighthouse,,51.852675,-5.411926,Wales,Active lighthouses,1839.0,Wikidata inception (P571),,,,1839.0,,,Q7566333,,South Bishop,1839.0,Wikidata inception (P571)
+L143,Smalls Lighthouse,,51.721215,-5.6698543,Wales,Active lighthouses,1861.0,Wikidata service entry (P729),,,1861.0,1861.0,,,Q7543693,,Smalls,1776.0,hand override
+L144,Skokholm Lighthouse,,51.693869,-5.2869493,Wales,Active lighthouses,1916.0,Wikidata inception (P571),,,,1916.0,,,Q15278065,,Skokholm,1916.0,Wikidata inception (P571)
+L145,St. Ann's Head Lighthouse,,51.681,-5.17362,Wales,Active lighthouses,1844.0,Wikidata service entry (P729),,,1844.0,1841.0,1910.0,1910.0,Q7586969,,St Ann's Head,1844.0,Wikidata service entry (P729)
+L146,Great Castle Head Light,,51.711295,-5.1176868,Wales,Active lighthouses,1870.0,Wikidata inception (P571),,,,1870.0,,,Q28805844,,,,
+L147,Little Castle Head Light,,51.71721,-5.109721,Wales,Active lighthouses,,none,,,,,,,Q28824545,,,,
+L148,Watwick Point Beacon,,51.6962,-5.154,Wales,Active lighthouses,1970.0,Wikidata inception (P571),,,,1970.0,,,Q7975085,,,,
+L149,West Blockhouse Point Beacons,,51.6884,-5.1592,Wales,Active lighthouses,1957.0,Wikidata inception (P571),,,,1957.0,,,Q7984483,,,,
+L150,Caldey Lighthouse,,51.631585,-4.6842452,Wales,Active lighthouses,1829.0,Wikidata inception (P571),,,,1829.0,,,Q5019082,,Caldey,1829.0,Wikidata inception (P571)
+L151,Saundersfoot Lighthouse,,51.71,-4.695,Wales,Active lighthouses,1848.0,Wikidata inception (P571),,,,1848.0,,,Q105704496,,,,
+L152,Burry Port Lighthouse,,51.677474546,-4.251175899,Wales,Active lighthouses,1996.0,Wikidata service entry (P729),,,1996.0,1842.0,,,Q5000542,,,,
+L153,Mumbles Lighthouse,,51.5668,-3.97108,Wales,Active lighthouses,1794.0,Wikidata inception (P571),,,,1794.0,,,Q339434,,Mumbles,1794.0,Wikidata inception (P571)
+L154,Porthcawl Lighthouse,,51.47307,-3.699753,Wales,Active lighthouses,1860.0,Wikidata inception (P571),,,,1860.0,,,Q28790555,,,,
+L155,Nash Point Lighthouse,,51.400848,-3.5521174,Wales,Active lighthouses,1831.0,Wikidata inception (P571),,,,1831.0,,,Q15717627,,Nash Point,1831.0,Wikidata inception (P571)
+L156,Flat Holm Lighthouse,,51.375,-3.117,Wales,Active lighthouses,1737.0,Wikidata inception (P571),,,,1737.0,,,Q3739781,,Flat Holm,1737.0,Wikidata inception (P571)
+L157,Barry Lighthouse,,51.39115,-3.2586107,Wales,Active lighthouses,1890.0,Wikidata inception (P571),,,,1890.0,,,Q28823930,,,,
+L158,Monkstone Lighthouse,,51.414722222,-3.1,Wales,Active lighthouses,1839.0,Wikidata inception (P571),,,,1839.0,,,Q16570914,,,,
+L159,East Usk Lighthouse,,51.54,-2.967,Wales,Active lighthouses,1893.0,Wikidata inception (P571),,,,1893.0,,,Q26197294,,,,
+L160,Charston Rock Lighthouse,,51.5891,-2.6945,Wales,Active lighthouses,1869.0,Wikidata inception (P571),,,,1869.0,,,Q139792302,,,,
+L161,Point of Ayr Lighthouse,,53.3569,-3.32222,Wales,Inactive lighthouses,1776.0,Wikidata inception (P571),,,,1776.0,1844.0,1844.0,Q11753150,,Point of Ayr (Wales),1776.0,Wikidata inception (P571)
+L162,Great Orme Lighthouse,,53.3423,-3.8689,Wales,Inactive lighthouses,1862.0,Wikidata inception (P571),,,,1862.0,1985.0,1985.0,Q28465908,,Great Orme,1862.0,Wikidata inception (P571)
+L163,Amlwch Lighthouse,,53.4154,-4.333,Wales,Inactive lighthouses,1817.0,Wikidata service entry (P729),,,1817.0,1817.0,1972.0,1972.0,Q4747079,,,,
+L164,Holyhead Mail Pier Lighthouse,,53.31422,-4.61991,Wales,Inactive lighthouses,1821.0,Wikidata inception (P571),,,,1821.0,,,Q15224748,,,,
+L165,Twr Mawr Llanddwyn Lighthouse,,53.135277777,-4.415555555,Wales,Inactive lighthouses,1820.0,Wikidata inception (P571),,,,1820.0,1975.0,1975.0,Q28831538,,Llanddwyn,1820.0,Wikidata inception (P571)
+L166,Whiteford Lighthouse,,51.6525,-4.25102,Wales,Inactive lighthouses,1865.0,Wikidata service entry (P729),,,1865.0,1854.0,1926.0,1926.0,Q3739820,,Whiteford,1865.0,Wikidata service entry (P729)
+L167,Old Nash Point Lighthouse,,51.401111111,-3.556666666,Wales,Inactive lighthouses,1832.0,Wikidata inception (P571),,,,1832.0,1900.0,1900.0,Q28831539,,Nash Point,1831.0,Wikidata inception (P571)
+L168,West Usk Lighthouse,,51.54061,-2.99465,Wales,Inactive lighthouses,1821.0,Wikidata inception (P571),,,,1821.0,1922.0,1922.0,Q15979604,,,,
+L169,Ailsa Craig Lighthouse,,55.251666666,-5.106666666,Scotland,Lighthouses,1886.0,Wikidata service entry (P729),,,1886.0,1886.0,,,Q4697091,,Ailsa Craig,1886.0,Wikidata service entry (P729)
+L170,Ardnamurchan Lighthouse,,56.7271,-6.22602,Scotland,Lighthouses,1849.0,Wikidata inception (P571),,,,1849.0,,,Q639663,,Ardnamurchan,1849.0,Wikidata inception (P571)
+L171,Auskerry Lighthouse,,59.0259,-2.57228,Scotland,Lighthouses,1866.0,Wikidata inception (P571),,,,1866.0,,,Q3378153,,Auskerry,1866.0,Wikidata inception (P571)
+L172,Barns Ness Lighthouse,,55.9873,-2.44529,Scotland,Lighthouses,1901.0,Wikidata service entry (P729),,,1901.0,1899.0,2005.0,2005.0,Q4861875,,,,
+L173,Barra Head Lighthouse,,56.7854,-7.65355,Scotland,Lighthouses,1833.0,Wikidata service entry (P729),,,1833.0,1833.0,,,Q3378173,,Barra Head,1833.0,Wikidata service entry (P729)
+L174,Bass Rock Lighthouse,,56.076545,-2.6409827,Scotland,Lighthouses,1902.0,Wikidata inception (P571),,,,1902.0,,,Q15196984,,Bass Rock,1902.0,Wikidata inception (P571)
+L175,Bell Rock Lighthouse,,56.432860418,-2.388088706,Scotland,Lighthouses,1811.0,Wikidata service entry (P729),,,1811.0,1810.0,,,Q2305375,,Bell Rock,1811.0,Wikidata service entry (P729)
+L176,Bressay Lighthouse,,60.12,-1.12152,Scotland,Lighthouses,1858.0,Wikidata service entry (P729),,,1858.0,1858.0,2012.0,2012.0,Q12053524,,Bressay,1858.0,Wikidata service entry (P729)
+L177,Brough of Birsay Lighthouse,,59.13683,-3.33911,Scotland,Lighthouses,1925.0,Wikidata inception (P571),,,,1925.0,,,Q15205148,,,,
+L178,Buchan Ness Lighthouse,,57.4704,-1.77451,Scotland,Lighthouses,1827.0,Wikidata inception (P571),,,,1827.0,,,Q12034939,,Buchan Ness,1827.0,Wikidata inception (P571)
+L179,Butt of Lewis Lighthouse,,58.515625195,-6.260874338,Scotland,Lighthouses,1862.0,Wikidata inception (P571),,,,1862.0,,,Q13630879,,Butt of Lewis,1862.0,Wikidata inception (P571)
+L180,Cantick Head Lighthouse,,58.7871,-3.13132,Scotland,Lighthouses,1858.0,Wikidata inception (P571),,,,1858.0,,,Q17829260,,Cantick Head,1858.0,Wikidata inception (P571)
+L181,Cape Wrath Lighthouse,,58.62563333,-4.9992,Scotland,Lighthouses,1828.0,Wikidata inception (P571),,,,1828.0,,,Q15207438,,Cape Wrath,1828.0,Wikidata inception (P571)
+L182,Chanonry Point Lighthouse,,57.574,-4.0927,Scotland,Lighthouses,1846.0,Wikidata service entry (P729),,,1846.0,1846.0,,,Q17572211,,,,
+L183,Cloch Lighthouse,,55.9422,-4.87864,Scotland,Lighthouses,1797.0,Wikidata inception (P571),,,,1797.0,,,Q17826186,,Cloch Point,1797.0,Wikidata inception (P571)
+L184,Copinsay Lighthouse,,58.896430555,-2.672027777,Scotland,Lighthouses,1915.0,Wikidata inception (P571),,,,1915.0,,,Q17828593,,Copinsay,1915.0,Wikidata inception (P571)
+L185,Corran Point Lighthouse,,56.720871,-5.2423313,Scotland,Lighthouses,1817.0,Wikidata inception (P571),,,,1817.0,,,Q28465867,,,,
+L186,Corsewall Lighthouse,,55.007,-5.159166666,Scotland,Lighthouses,1817.0,Wikidata service entry (P729),,,1817.0,1816.0,,,Q5173151,,Corsewall,1817.0,Wikidata service entry (P729)
+L187,Covesea Skerries Lighthouse,,57.7241,-3.3385,Scotland,Lighthouses,1846.0,Wikidata inception (P571),,,,1846.0,2012.0,2012.0,Q5179307,,Covesea Skerries,1846.0,Wikidata inception (P571)
+L188,Crammag Head Lighthouse,,54.6646,-4.9651,Scotland,Lighthouses,1913.0,Wikidata inception (P571),,,,1913.0,,,Q26156232,,,,
+L189,Cromarty Lighthouse,,57.683,-4.03648,Scotland,Lighthouses,1846.0,Wikidata inception (P571),,,,1846.0,2006.0,2006.0,Q17569136,,,,
+L190,Davaar Lighthouse,,55.4281,-5.54052,Scotland,Lighthouses,1854.0,Wikidata inception (P571),,,,1854.0,,,Q17772261,,Davaar,1854.0,Wikidata inception (P571)
+L191,Dubh Artach Lighthouse,,56.1331,-6.63273,Scotland,Lighthouses,1872.0,Wikidata inception (P571),,,,1872.0,,,Q1262994,,Dubh Artach,1872.0,Wikidata inception (P571)
+L192,Duncansby Head Lighthouse,,58.643980555,-3.025188888,Scotland,Lighthouses,1924.0,Wikidata inception (P571),,,,1924.0,,,Q28465909,,Duncansby Head,1924.0,Wikidata inception (P571)
+L193,Dunnet Head Lighthouse,,58.6714,-3.37637,Scotland,Lighthouses,1831.0,Wikidata inception (P571),,,,1831.0,,,Q5856486,,Dunnet Head,1831.0,Wikidata inception (P571)
+L194,Eilean Glas Lighthouse,,57.8569,-6.642,Scotland,Lighthouses,1789.0,Wikidata service entry (P729),,,1789.0,1789.0,1824.0,1824.0,Q14544324,,Eilean Glas,1789.0,Wikidata service entry (P729)
+L195,Elie Ness Lighthouse,,56.183963,-2.8126905,Scotland,Lighthouses,1908.0,Wikidata inception (P571),,,,1908.0,,,Q28465858,,Elie Ness,1908.0,Wikidata inception (P571)
+L196,Esha Ness Lighthouse,,60.4892,-1.62733,Scotland,Lighthouses,1929.0,Wikidata service entry (P729),,,1929.0,1925.0,,,Q4313467,,Esha Ness,1929.0,Wikidata service entry (P729)
+L197,Fair Isle North Lighthouse,,59.5521,-1.60983,Scotland,Lighthouses,1892.0,Wikidata service entry (P729),,,1892.0,1892.0,,,Q17851868,,Fair Isle,1892.0,Wikidata inception (P571)
+L198,South Lighthouse,,59.5139,-1.65266,Scotland,Lighthouses,1892.0,Wikidata inception (P571),,,,1892.0,,,Q17851293,,Fair Isle,1892.0,Wikidata inception (P571)
+L199,Fidra Lighthouse,,56.073224,-2.7851367,Scotland,Lighthouses,1885.0,Wikidata inception (P571),,,,1885.0,,,Q12034940,,Fidra,1885.0,Wikidata inception (P571)
+L200,Fife Ness Lighthouse,,56.278834,-2.585789,Scotland,Lighthouses,1975.0,Wikidata inception (P571),,,,1975.0,,,Q26094938,,,,
+L201,Firths Voe Lighthouse,,60.453688,-1.1769812,Scotland,Lighthouses,1909.0,Wikidata inception (P571),,,,1909.0,,,Q105820746,,,,
+L202,Flannan Isles Lighthouse,,58.28811,-7.588285,Scotland,Lighthouses,1899.0,Wikidata inception (P571),,,,1899.0,,,Q15217844,,Flannan Isles,1899.0,Wikidata inception (P571)
+L203,Foula Lighthouse,,60.112388888,-2.064013888,Scotland,Lighthouses,1986.0,Wikidata inception (P571),,,,1986.0,,,Q28874338,,,,
+L204,Girdleness Lighthouse,,57.139,-2.04858,Scotland,Lighthouses,1833.0,Wikidata service entry (P729),,,1833.0,1833.0,,,Q17576459,,Girdle Ness,1833.0,Wikidata service entry (P729)
+L205,Holburn Head Lighthouse,,58.6146,-3.53948,Scotland,Lighthouses,1862.0,Wikidata inception (P571),,,,1862.0,2003.0,2003.0,Q28465955,,Holburn Head,1862.0,Wikidata inception (P571)
+L206,Holy Isle Inner Lighthouse,,55.512218,-5.070168,Scotland,Lighthouses,1877.0,Wikidata inception (P571),,,,1877.0,,,Q26156178,,,,
+L207,Holy Isle Outer Lighthouse,,55.517299,-5.060764,Scotland,Lighthouses,1905.0,Wikidata inception (P571),,,,1905.0,,,Q26156177,,,,
+L208,Hoxa Head Lighthouse,,58.821877777,-3.034716666,Scotland,Lighthouses,1901.0,Wikidata inception (P571),,,,1901.0,,,Q26161442,Replaced with modern lighthouse in 1996.,,,
+L209,Hoy Sound High Light,,58.93566667,-3.27319444,Scotland,Lighthouses,1851.0,Wikidata inception (P571),,,,1851.0,,,Q14906863,,Hoy Sound,1851.0,Wikidata inception (P571)
+L210,Hoy Sound Low Light,,58.940378566,-3.309999475,Scotland,Lighthouses,1851.0,Wikidata inception (P571),,,,1851.0,,,Q17827193,,Hoy Sound,1851.0,Wikidata inception (P571)
+L211,Hyskeir Lighthouse,,56.96898333,-6.68085,Scotland,Lighthouses,1904.0,Wikidata inception (P571),,,,1904.0,,,Q15227367,,,,
+L212,Inchkeith Lighthouse,,56.0335,-3.13622,Scotland,Lighthouses,1804.0,Wikidata service entry (P729),,,1804.0,1804.0,,,Q17804305,,Inchkeith,1804.0,Wikidata service entry (P729)
+L213,Isle of May Lighthouse,,56.1856,-2.55741,Scotland,Lighthouses,1816.0,Wikidata inception (P571),,,,1816.0,,,Q17817380,,Isle of May,1816.0,Wikidata inception (P571)
+L214,Isle of May Low Light,,56.18301,-2.551961,Scotland,Lighthouses,1844.0,Wikidata service entry (P729),,,1844.0,1843.0,1887.0,1887.0,Q28465860,,Isle of May,1816.0,Wikidata inception (P571)
+L215,Killantringan Lighthouse,,54.8618,-5.14692,Scotland,Lighthouses,1900.0,Wikidata inception (P571),,,,1900.0,2007.0,2007.0,Q6407284,,Killantringan,1900.0,Wikidata inception (P571)
+L216,New Kinnaird Head Lighthouse,,57.6979179,-2.00425911,Scotland,Lighthouses,1991.0,Wikidata service entry (P729),,,1991.0,1991.0,,,Q31317078,,,,
+L217,Lady Isle Lighthouse,,55.52713,-4.733949,Scotland,Lighthouses,1903.0,Wikidata inception (P571),,,,1903.0,,,Q28465854,,Lady Isle,1903.0,Wikidata inception (P571)
+L218,Lismore Lighthouse,,56.4556,-5.60749,Scotland,Lighthouses,1833.0,Wikidata inception (P571),,,,1833.0,,,Q1828006,,Lismore,1833.0,Wikidata inception (P571)
+L219,Little Cumbrae Old Lighthouse,,55.7209,-4.95805,Scotland,Lighthouses,1757.0,Wikidata service entry (P729),,,1757.0,1757.0,,,Q15118715,,,,
+L220,Cumbrae Lighthouse,,55.7211,-4.96681,Scotland,Lighthouses,1793.0,Wikidata inception (P571),,,,1793.0,,,Q17829397,,,,
+L221,Little Cumbrae New Lighthouse,,55.72043,-4.96715,Scotland,Lighthouses,1997.0,Wikidata inception (P571),,,,1997.0,,,Q28790188,,,,
+L222,Little Ross Lighthouse,,54.7657,-4.08498,Scotland,Lighthouses,1843.0,Wikidata inception (P571),,,,1843.0,,,Q17791180,,Little Ross,1843.0,Wikidata inception (P571)
+L223,Lother Rock Light,,58.729933333,-2.9782,Scotland,Lighthouses,1910.0,Wikidata inception (P571),,,,1910.0,,,Q105947239,,,,
+L224,Old Monach Lighthouse,,57.525817,-7.69605,Scotland,Lighthouses,1864.0,Wikidata inception (P571),,,,1864.0,,,Q3739794,,Monach Isles,1864.0,Wikidata inception (P571)
+L225,Muckle Flugga Lighthouse,,60.855272795,-0.885261534,Scotland,Lighthouses,1858.0,Wikidata service entry (P729),,,1858.0,,,,Q2205850,,Muckle Flugga,1858.0,Wikidata service entry (P729)
+L226,Mull of Galloway Lighthouse,,54.6349,-4.85719,Scotland,Lighthouses,1830.0,Wikidata inception (P571),,,,1830.0,,,Q17568569,,Mull of Galloway,1830.0,Wikidata inception (P571)
+L227,Mull of Kintyre Lighthouse,,55.3105,-5.80337,Scotland,Lighthouses,1788.0,Wikidata inception (P571),,,,1788.0,,,Q1952184,,Mull of Kintyre,1788.0,Wikidata inception (P571)
+L228,Neist Point Lighthouse,,57.4234,-6.78827,Scotland,Lighthouses,1909.0,Wikidata service entry (P729),,,1909.0,1909.0,,,Q15261568,,Neist Point,1909.0,Wikidata service entry (P729)
+L229,North Rona Lighthouse,,59.121388888,-5.814722222,Scotland,Lighthouses,1984.0,Wikidata inception (P571),,,,1984.0,,,Q28831543,,,,
+L230,North Ronaldsay Lighthouse,,59.3897,-2.38133,Scotland,Lighthouses,1854.0,Wikidata service entry (P729),,,1854.0,1852.0,,,Q17826758,,North Ronaldsay,1789.0,Wikidata service entry (P729)
+L231,Dennis Head Old Beacon,,59.3843,-2.37136,Scotland,Lighthouses,1789.0,Wikidata service entry (P729),,,1789.0,1789.0,1809.0,1809.0,Q5258500,,North Ronaldsay,1789.0,Wikidata service entry (P729)
+L232,Noss Head Lighthouse,,58.479,-3.05092,Scotland,Lighthouses,1849.0,Wikidata service entry (P729),,,1849.0,1849.0,,,Q17567439,,Noss Head,1849.0,Wikidata service entry (P729)
+L233,Noup Head Lighthouse,,59.3311,-3.0703,Scotland,Lighthouses,1898.0,Wikidata inception (P571),,,,1898.0,,,Q7063872,,Noup Head,1898.0,Wikidata inception (P571)
+L234,Ornsay Lighthouse,,57.1434,-5.78112,Scotland,Lighthouses,1857.0,Wikidata inception (P571),,,,1857.0,,,Q17829400,,,,
+L235,Bound Skerry Lighthouse,,60.4244,-0.728053,Scotland,Lighthouses,1858.0,Wikidata inception (P571),,,,1858.0,,,Q17852685,,Out Skerries,1858.0,Wikidata inception (P571)
+L236,Oxcars Lighthouse,,56.0226,-3.28037,Scotland,Lighthouses,1886.0,Wikidata inception (P571),,,,1886.0,,,Q17817344,,,,
+L237,Pentland Skerries High Light,,58.69019444,-2.92472222,Scotland,Lighthouses,1794.0,Wikidata inception (P571),,,,1794.0,,,Q14912772,,Pentland Skerries,1794.0,Wikidata inception (P571)
+L238,Pladda Lighthouse,,55.425129,-5.118362,Scotland,Lighthouses,1790.0,Wikidata inception (P571),,,,1790.0,,,Q17016410,,Pladda,1790.0,Wikidata inception (P571)
+L239,Fethaland Lighthouse,,60.6341,-1.3115,Scotland,Lighthouses,1977.0,Wikidata inception (P571),,,,1977.0,,,Q28453675,,,,
+L240,Point of Sleat Lighthouse,,57.018295,-6.017619,Scotland,Lighthouses,2003.0,Wikidata inception (P571),,,,2003.0,,,Q24515751,,,,
+L241,Rattray Head Lighthouse,,57.6101,-1.81649,Scotland,Lighthouses,1895.0,Wikidata inception (P571),,,,1895.0,,,Q17777585,,Rattray Head,1895.0,Wikidata inception (P571)
+L242,Rinns of Islay Lighthouse,,55.6731,-6.51323,Scotland,Lighthouses,1825.0,Wikidata inception (P571),,,,1825.0,,,Q2148102,,Rinns of Islay,1825.0,Wikidata inception (P571)
+L243,Rona Lighthouse,,57.5781,-5.95903,Scotland,Lighthouses,1857.0,Wikidata inception (P571),,,,1857.0,,,Q17829062,,,,
+L244,"Rose Ness Lighthouse, Orkney",,58.872722,-2.8319559,Scotland,Lighthouses,,none,,,,,,,Q108408489,,,,
+L245,Rua Reidh Lighthouse,,57.8588,-5.81183,Scotland,Lighthouses,1912.0,Wikidata inception (P571),,,,1912.0,,,Q7375626,,Rua Reidh,1912.0,Wikidata inception (P571)
+L246,Rubha nan Gall Lighthouse,,56.638676,-6.0662025,Scotland,Lighthouses,1857.0,Wikidata inception (P571),,,,1857.0,,,Q15197700,,,,
+L247,Ruvaal Lighthouse,,55.9364,-6.12353,Scotland,Lighthouses,1859.0,Wikidata inception (P571),,,,1859.0,,,Q1692569,,Ruvaal (Islay),1859.0,Wikidata inception (P571)
+L248,Sanda Island Lighthouse,,55.275,-5.582777777,Scotland,Lighthouses,1850.0,Wikidata inception (P571),,,,1850.0,,,Q26132872,,Sanda,1850.0,Wikidata inception (P571)
+L249,Scarinish Lighthouse,,56.500194444,-6.804277777,Scotland,Lighthouses,1897.0,Wikidata inception (P571),,,,1897.0,,,Q106257744,,,,
+L250,Scurdie Ness Lighthouse,,56.7018,-2.43728,Scotland,Lighthouses,1870.0,Wikidata inception (P571),,,,1870.0,,,Q7439516,,Scurdie Ness,1870.0,Wikidata inception (P571)
+L251,Skerryvore Lighthouse,,56.3231,-7.11624,Scotland,Lighthouses,1844.0,Wikidata inception (P571),,,,1844.0,,,Q2292002,,Skerryvore,1844.0,Wikidata inception (P571)
+L252,Southerness lighthouse,,54.872823,-3.59518,Scotland,Lighthouses,1800.0,Wikipedia list note,,,1800.0,1749.0,1931.0,1931.0,Q7570747,Built in 1748 but not lit till 1800. Rebuilt in 1844.,Southerness,1800.0,Wikipedia list note
+L253,St. Abbs Lighthouse,,55.9162,-2.13877,Scotland,Lighthouses,1862.0,Wikidata inception (P571),,,,1862.0,,,Q5856384,,St Abbs Head,1862.0,Wikidata inception (P571)
+L254,Start Point Lighthouse,,59.2774,-2.37592,Scotland,Lighthouses,1806.0,Wikidata inception (P571),,,,1806.0,,,Q17827973,,Sanday,1806.0,Wikidata inception (P571)
+L255,Stoer Head Lighthouse,,58.240017012,-5.402573387,Scotland,Lighthouses,1870.0,Wikidata inception (P571),,,,1870.0,,,Q2251111,,Stoer Head,1870.0,Wikidata inception (P571)
+L256,Strathy Point Lighthouse,,58.59874,-4.018625,Scotland,Lighthouses,1958.0,Wikidata inception (P571),,,,1958.0,2012.0,2012.0,Q28465866,,Strathy Point,1958.0,Wikidata inception (P571)
+L257,Stroma Lighthouse,,58.69591,-3.116663,Scotland,Lighthouses,1890.0,Wikidata inception (P571),,,,1890.0,,,Q28831542,,Stroma,1890.0,Wikidata inception (P571)
+L258,Sule Skerry Lighthouse,,59.0843,-4.40655,Scotland,Lighthouses,1895.0,Wikidata inception (P571),,,,1895.0,,,Q15130793,,Sule Skerry,1895.0,Wikidata inception (P571)
+L259,Sumburgh Head Lighthouse,,59.8539,-1.2747,Scotland,Lighthouses,1821.0,Wikidata inception (P571),,,,1821.0,,,Q7637054,,Sumburgh Head,1821.0,Wikidata inception (P571)
+L260,Tarbat Ness Lighthouse,,57.865059525,-3.776604853,Scotland,Lighthouses,1830.0,Wikidata service entry (P729),,,1830.0,1830.0,,,Q2394002,,Tarbat Ness,1830.0,Wikidata service entry (P729)
+L261,Tiumpan Head Lighthouse,,58.260984,-6.1388329,Scotland,Lighthouses,1900.0,Wikidata service entry (P729),,,1900.0,1900.0,,,Q16901754,,Tiumpan Head,1900.0,Wikidata service entry (P729)
+L262,Todhead Lighthouse,,56.883914204,-2.215328836,Scotland,Lighthouses,1897.0,Wikidata service entry (P729),,,1897.0,1897.0,2007.0,2007.0,Q17774020,,Todhead,1897.0,Wikidata service entry (P729)
+L263,Tor Ness Lighthouse,,58.778638888,-3.296430555,Scotland,Lighthouses,1980.0,Wikidata inception (P571),,,,1980.0,,,Q28858425,,,,
+L264,Toward Point Lighthouse,,55.8621,-4.97974,Scotland,Lighthouses,1812.0,Wikidata inception (P571),,,,1812.0,,,Q17776011,,Toward Point,1812.0,Wikidata inception (P571)
+L265,Turnberry Lighthouse,,55.3258,-4.84464,Scotland,Lighthouses,1873.0,Wikidata service entry (P729),,,1873.0,1873.0,,,Q26156204,,Turnberry,1873.0,Wikidata service entry (P729)
+L266,Ushenish Lighthouse,,57.2982,-7.193,Scotland,Lighthouses,1857.0,Wikidata inception (P571),,,,1857.0,,,Q16902419,,,,
+L267,Vaternish Lighthouse,,57.608066666,-6.63415,Scotland,Lighthouses,1980.0,Wikidata service entry (P729),,,1980.0,1980.0,,,Q16902558,,,,
+L268,Vaternish Point Lighthouse,,57.608066666,-6.63415,Scotland,Lighthouses,1924.0,Wikidata inception (P571),,,,1924.0,,,Q106441711,,,,
+L269,Weavers Point Lighthouse,,57.608216666,-7.100016666,Scotland,Lighthouses,1980.0,Wikidata inception (P571),,,,1980.0,,,Q33061623,,,,
+L270,Rubh' an Eun Lighthouse,,55.729921,-5.0038408,Scotland,Lighthouses,,none,,,,,,,Q77770588,,,,
+L271,Crookhaven Lighthouse,Crookhaven,51.477,-9.705,Ireland,Maintained by Commissioners of Irish Lights,1843.0,Wikipedia list,1843,1843,,,,,,,Crookhaven,1843.0,Wikipedia list
+L272,Mizen Head Lighthouse,Mizen Head,51.45,-9.82,Ireland,Maintained by Commissioners of Irish Lights,1959.0,Wikipedia list,1959,1959,,,,,,,,,
+L273,Roancarrigmore Lighthouse,Roancarrigmore Island,51.653,-9.747,Ireland,Maintained by Commissioners of Irish Lights,1847.0,Wikipedia list,1847,1847,,,,,,,,,
+L274,Castletownbere Light,Castletownbere,51.647,-9.905,Ireland,Maintained by Commissioners of Irish Lights,1965.0,Wikipedia list,1965,1965,,,,,Q28333626,,,,
+L275,Ardnakinna Lighthouse,Bere Island,51.618,-9.918,Ireland,Maintained by Commissioners of Irish Lights,1850.0,Wikipedia list,1850/1965,1850/1965,,,,,,,,,
+L276,Sheep's Head Lighthouse,Sheep's Head,51.543,-9.849,Ireland,Maintained by Commissioners of Irish Lights,1968.0,Wikipedia list,1968,1968,,,,,,,,,
+L277,Bull Rock Lighthouse,Bull Rock,51.592,-10.301,Ireland,Maintained by Commissioners of Irish Lights,1889.0,Wikipedia list,1889,1889,,,,,,,Bull and Calf Rocks,1866.0,Wikipedia list
+L278,Skelligs Lighthouse,Skellig Michael,51.768,-10.542,Ireland,Maintained by Commissioners of Irish Lights,1826.0,Wikipedia list,1826/1967,1826/1967,,,,,,,Skelligs,1826.0,Wikipedia list
+L279,Valentia Light,Valentia Island,51.925,-10.307,Ireland,Maintained by Commissioners of Irish Lights,1913.0,Wikipedia list,1913,1913,,,,,,,,,
+L280,Cromwell Point Lighthouse,Valentia Island,51.934,-10.321,Ireland,Maintained by Commissioners of Irish Lights,1841.0,Wikipedia list,1841,1841,,,,,,,,,
+L281,Inishtearaght Lighthouse,Tearaght Island,52.076,-10.661,Ireland,Maintained by Commissioners of Irish Lights,1870.0,Wikipedia list,1870,1870,,,,,,,Inishtearaght,1870.0,Wikipedia list
+L282,Little Samphire Island Lighthouse,Fenit,52.271,-9.882,Ireland,Maintained by Commissioners of Irish Lights,1854.0,Wikipedia list,1854,1854,,,,,,,,,
+L283,Inis Cathaig Lighthouse,Scattery Island,52.606,-9.518,Ireland,Maintained by Commissioners of Irish Lights,1872.0,Wikipedia list,1872,1872,,,,,Q28333642,,,,
+L284,Corlis Point rear (Querrin Quay) leading light,Carrigaholt,52.628,-9.589,Ireland,Maintained by Commissioners of Irish Lights,1998.0,Wikipedia list,1998,1998,,,,,,,,,
+L285,Corlis Point front leading light,Carrigaholt,52.618,-9.606,Ireland,Maintained by Commissioners of Irish Lights,1998.0,Wikipedia list,1998,1998,,,,,,,,,
+L286,Loop Head,Loop Head,52.561,-9.932,Ireland,Maintained by Commissioners of Irish Lights,1854.0,Wikipedia list,1854,1854,,,,,,,Loop Head,1854.0,Wikipedia list
+L287,Inisheer Lighthouse,Inisheer,53.047,-9.527,Ireland,Maintained by Commissioners of Irish Lights,1857.0,Wikipedia list,1857,1857,,,,,,,Aran Islands,1818.0,Wikipedia list
+L288,"Black Head Lighthouse, County Clare",Fanore,53.154,-9.264,Ireland,Maintained by Commissioners of Irish Lights,1936.0,Wikipedia list,1936,1936,,,,,,,,,
+L289,Cashla Bay Lighthouse,Casla,53.264,-9.566,Ireland,Maintained by Commissioners of Irish Lights,1984.0,Wikipedia list,1984,1984,,,,,,,,,
+L290,Straw Island Lighthouse,Aran Islands,53.118,-9.631,Ireland,Maintained by Commissioners of Irish Lights,1878.0,Wikipedia list,1878,1878,,,,,,,Aran Islands,1818.0,Wikipedia list
+L291,Eeragh Lighthouse,Aran Islands,53.148,-9.857,Ireland,Maintained by Commissioners of Irish Lights,1857.0,Wikipedia list,1857,1857,,,,,,,Aran Islands,1818.0,Wikipedia list
+L292,Slyne Head Lighthouse,Slyne Head lighthouse,53.4,-10.234,Ireland,Maintained by Commissioners of Irish Lights,1836.0,Wikipedia list,1836,1836,,,,,,,Slyne Head,1836.0,Wikipedia list
+L293,Inishgort Lighthouse,Clew Bay,53.827,-9.671,Ireland,Maintained by Commissioners of Irish Lights,1827.0,Wikipedia list,1827,1827,,,,,,,,,
+L294,Achillbeg Lighthouse,Achillbeg,53.858,-9.947,Ireland,Maintained by Commissioners of Irish Lights,1965.0,Wikipedia list,1965,1965,,,,,,,,,
+L295,Blacksod Lighthouse,Blacksod Bay,54.099,-10.06,Ireland,Maintained by Commissioners of Irish Lights,1864.0,Wikipedia list,1864,1864,,,,,,,Blacksod,1864.0,Wikipedia list
+L296,Blackrock Mayo Lighthouse,Blacksod Bay,54.068,-10.321,Ireland,Maintained by Commissioners of Irish Lights,1864.0,Wikipedia list,1864,1864,,,,,,,Blacksod,1864.0,Wikipedia list
+L297,Eagle Island lighthouse,Eagle Island,54.284,-10.093,Ireland,Maintained by Commissioners of Irish Lights,1835.0,Wikipedia list,1835,1835,,,,,,,Eagle Island,1835.0,Wikipedia list
+L298,Broadhaven Lighthouse,Broadhaven Bay,54.268,-9.889,Ireland,Maintained by Commissioners of Irish Lights,1848.0,Wikipedia list,1848,1848,,,,,,,,,
+L299,Oyster Island Lighthouse,Rosses Point,54.302,-8.571,Ireland,Maintained by Commissioners of Irish Lights,1837.0,Wikipedia list,1837/1893,1837/1893,,,,,,,,,
+L300,Metal Man Sligo Lighthouse,Rosses Point,54.304,-8.576,Ireland,Maintained by Commissioners of Irish Lights,1821.0,Wikipedia list,1821,1821,,,,,,,,,
+L301,Lower Rosses Lighthouse,Rosses Point,54.329,-8.573,Ireland,Maintained by Commissioners of Irish Lights,1908.0,Wikipedia list,1908,1908,,,,,,,,,
+L302,Blackrock Sligo Lighthouse,Sligo Bay,54.308,-8.618,Ireland,Maintained by Commissioners of Irish Lights,1835.0,Wikipedia list,1835,1835,,,,,,,,,
+L303,Rotten Island lighthouse,Rotten Island,54.615,-8.441,Ireland,Maintained by Commissioners of Irish Lights,1838.0,Wikipedia list,1838,1838,,,,,,,,,
+L304,"St John's Point Lighthouse, County Donegal",Dunkineely,54.569,-8.461,Ireland,Maintained by Commissioners of Irish Lights,1831.0,Wikipedia list,1831,1831,,,,,,,,,
+L305,Rathlin O'Birne Lighthouse,Glencolmcille,54.664,-8.833,Ireland,Maintained by Commissioners of Irish Lights,1856.0,Wikipedia list,1856,1856,,,,,,,Rathlin O'Birne,1856.0,Wikipedia list
+L306,Ballagh Rocks Lighthouse,Arranmore,54.999,-8.481,Ireland,Maintained by Commissioners of Irish Lights,1982.0,Wikipedia list,1982,1982,,,,,,,,,
+L307,Arranmore Lighthouse,Arranmore,55.015,-8.561,Ireland,Maintained by Commissioners of Irish Lights,1798.0,Wikipedia list,1798/1865,1798/1865,,,,,,,Arranmore,1798.0,Wikipedia list
+L308,Tory Island Lighthouse,Tory Island,55.273,-8.249,Ireland,Maintained by Commissioners of Irish Lights,1832.0,Wikipedia list,1832,1832,,,,,,,Tory Island,1832.0,Wikipedia list
+L309,Buncrana Light,Buncrana,55.127,-7.465,Ireland,Maintained by Commissioners of Irish Lights,1876.0,Wikipedia list,1876/2009,1876/2009,,,,,,,,,
+L310,Dunree Lighthouse,Dunree,55.198,-7.554,Ireland,Maintained by Commissioners of Irish Lights,1876.0,Wikipedia list,1876,1876,,,,,,,,,
+L311,Fanad Head Lighthouse,Fanad,55.276,-7.632,Ireland,Maintained by Commissioners of Irish Lights,1817.0,Wikipedia list,1817/1886,1817/1886,,,,,Q28374980,,Fanad Head,1817.0,Wikipedia list
+L312,Inishtrahull Lighthouse,Inishtrahull Island,55.431,-7.244,Ireland,Maintained by Commissioners of Irish Lights,1812.0,Wikipedia list,1812/1958,1812/1958,,,,,,,Inishtrahull,1812.0,Wikipedia list
+L313,Inishowen Lighthouse,Inishowen,55.226,-6.929,Ireland,Maintained by Commissioners of Irish Lights,1837.0,Wikipedia list,1837,1837,,,,,,,Inishowen Head,1837.0,Wikipedia list
+L314,Rathlin West Lighthouse,Rathlin Island,55.301,-6.281,Ireland,Maintained by Commissioners of Irish Lights,1917.0,Wikipedia list,1917,1917,,,,,,,Rathlin Island,1856.0,Wikipedia list
+L315,Rathlin East (Altacarry Head) Lighthouse,Rathlin Island,55.302,-6.172,Ireland,Maintained by Commissioners of Irish Lights,1856.0,Wikipedia list,1856,1856,,,,,,,Rathlin Island,1856.0,Wikipedia list
+L316,Rue Point Lighthouse,Rathlin Island,55.259,-6.191,Ireland,Maintained by Commissioners of Irish Lights,1915.0,Wikipedia list,1915/1921,1915/1921,,,,,,,Rathlin Island,1856.0,Wikipedia list
+L317,Maidens Lighthouse,The Maidens,54.929,-5.728,Ireland,Maintained by Commissioners of Irish Lights,1829.0,Wikipedia list,1829,1829,,,,,,,Maidens,1829.0,Wikipedia list
+L318,"Blackhead Lighthouse, County Antrim",Whitehead,54.767,-5.689,Ireland,Maintained by Commissioners of Irish Lights,1902.0,Wikipedia list,1902,1902,,,,,,,,,
+L319,Mew Island Lighthouse,Mew Island,54.699,-5.514,Ireland,Maintained by Commissioners of Irish Lights,1884.0,Wikipedia list,1884,1884,,,,,,,,,
+L320,Donaghadee Lighthouse,Donaghadee,54.645,-5.531,Ireland,Maintained by Commissioners of Irish Lights,1836.0,Wikipedia list,1836,1836,,,,,,,,,
+L321,Angus Rock Lighthouse,Strangford Lough,54.331,-5.525,Ireland,Maintained by Commissioners of Irish Lights,1983.0,Wikipedia list,1983,1983,,,,,,,,,
+L322,"St John's Point Lighthouse, County Down",Killough,54.227,-5.66,Ireland,Maintained by Commissioners of Irish Lights,1844.0,Wikipedia list,1844/1893,1844/1893,,,,,,,St John's Point (Down),1844.0,Wikipedia list
+L323,Green Island Leading Light,Carlingford Lough,54.033,-6.096,Ireland,Maintained by Commissioners of Irish Lights,1873.0,Wikipedia list,1873,1873,,,,,Q3739784,,,,
+L324,Vidal Bank Leading Light,Carlingford Lough,54.03,-6.091,Ireland,Maintained by Commissioners of Irish Lights,1873.0,Wikipedia list,1873,1873,,,,,,,,,
+L325,Haulbowline Lighthouse,Carlingford Lough,54.02,-6.079,Ireland,Maintained by Commissioners of Irish Lights,1824.0,Wikipedia list,1824,1824,,,,,,,,,
+L326,Dundalk Lighthouse,Dundalk,53.976,-6.295,Ireland,Maintained by Commissioners of Irish Lights,1855.0,Wikipedia list,1855,1855,,,,,,,,,
+L327,Rockabill Lighthouse,Rockabill,53.597,-6.005,Ireland,Maintained by Commissioners of Irish Lights,1860.0,Wikipedia list,1860,1860,,,,,,,Rockabill,1860.0,Wikipedia list
+L328,Baily Lighthouse,Howth Head,53.362,-6.053,Ireland,Maintained by Commissioners of Irish Lights,1814.0,Wikipedia list,1814,1814,,,,,,,Baily (Howth),1814.0,Wikipedia list
+L329,Dún Laoghaire West Lighthouse,Dún Laoghaire,53.303,-6.131,Ireland,Maintained by Commissioners of Irish Lights,1852.0,Wikipedia list,1852,1852,,,,,,,,,
+L330,Dún Laoghaire East Lighthouse,Dún Laoghaire,53.303,-6.127,Ireland,Maintained by Commissioners of Irish Lights,1847.0,Wikipedia list,1847,1847,,,,,,,,,
+L331,Muglins Lighthouse,Dalkey Island,53.275,-6.076,Ireland,Maintained by Commissioners of Irish Lights,1906.0,Wikipedia list,1906,1906,,,,,,,,,
+L332,Kish Lighthouse,Kish Bank,53.311,-5.926,Ireland,Maintained by Commissioners of Irish Lights,1965.0,Wikipedia list,1965,1965,,,,,,,,,
+L333,Wicklow Head Lighthouse,Wicklow Head,52.966,-5.998,Ireland,Maintained by Commissioners of Irish Lights,1781.0,Wikipedia list,1781/1818,1781/1818,,,,,,,Wicklow Head,1781.0,Wikipedia list
+L334,Tuskar Rock Lighthouse,Tuskar Rock,52.203,-6.207,Ireland,Maintained by Commissioners of Irish Lights,1815.0,Wikipedia list,1815,1815,,,,,,,Tuskar Rock,1815.0,Wikipedia list
+L335,Dunmore East Lighthouse,Dunmore East,52.149,-6.99,Ireland,Maintained by Commissioners of Irish Lights,1825.0,Wikipedia list,1825,1825,,,,,,,,,
+L336,Hook Lighthouse,Hook Head,52.124,-6.93,Ireland,Maintained by Commissioners of Irish Lights,,none,,1172,,,,,,,Hook Head,,
+L337,Ballinacourty Point Lighthouse,Dungarvan,52.078,-7.553,Ireland,Maintained by Commissioners of Irish Lights,1858.0,Wikipedia list,1858,1858,,,,,,,,,
+L338,Mine Head Lighthouse,Mine Head,51.993,-7.587,Ireland,Maintained by Commissioners of Irish Lights,1851.0,Wikipedia list,1851,1851,,,,,,,Mine Head,1851.0,Wikipedia list
+L339,Ballycotton lighthouse,Ballycotton,51.825,-7.986,Ireland,Maintained by Commissioners of Irish Lights,1851.0,Wikipedia list,1851,1851,,,,,,,Ballycotton,1851.0,Wikipedia list
+L340,Roche's Point Lighthouse,Cork Harbour,51.793,-8.255,Ireland,Maintained by Commissioners of Irish Lights,1817.0,Wikipedia list,1817/1835,1817/1835,,,,,,,Roche's Point,1817.0,Wikipedia list
+L341,Charlesfort Lighthouse,Charlesfort,51.696,-8.5,Ireland,Maintained by Commissioners of Irish Lights,,none,,Unknown,,,,,,,,,
+L342,Old Head of Kinsale Lighthouse,Old Head of Kinsale,51.605,-8.534,Ireland,Maintained by Commissioners of Irish Lights,1665.0,Wikipedia list,1665/1853,1665/1853,,,,,,,Old Head of Kinsale,1665.0,Wikipedia list
+L343,Galley Head Lighthouse,Galley Head,51.53,-8.954,Ireland,Maintained by Commissioners of Irish Lights,1878.0,Wikipedia list,1878,1878,,,,,,,Galley Head,1878.0,Wikipedia list
+L344,Copper Point Lighthouse,Long Island,51.504,-9.534,Ireland,Maintained by Commissioners of Irish Lights,1864.0,Wikipedia list,1864,1864,,,,,,,,,
+L345,Fastnet Lighthouse,Fastnet Rock,51.389,-9.603,Ireland,Maintained by Commissioners of Irish Lights,1854.0,Wikipedia list,1854/1904,1854/1904,,,,,,,Fastnet,1854.0,Wikipedia list
+L346,Aleria,Drogheda,53.7225,-6.2388,Ireland,Maintained by other Irish marine authorities,1936.0,Wikipedia list,1936,1936,,,,,,,,,
+L347,Ardglass Pier,Ardglass,54.261,-5.6027,Ireland,Maintained by other Irish marine authorities,1885.0,Wikipedia list,1885,1885,,,,,Q28465901,,,,
+L348,Balbriggan,Balbriggan,53.6129,-6.1787,Ireland,Maintained by other Irish marine authorities,1769.0,Wikipedia list,1769,1769,,,,,,,,,
+L349,Ballynagard,River Foyle,55.038,-7.2736,Ireland,Maintained by other Irish marine authorities,,none,,Unknown,,,,,,,,,
+L350,Barrack Point,Sherkin Island,51.4728,-9.3947,Ireland,Maintained by other Irish marine authorities,1885.0,Wikipedia list,1885,1885,,,,,,,,,
+L351,Beeves Rock,Shannon Estuary,52.6502,-9.0225,Ireland,Maintained by other Irish marine authorities,1855.0,Wikipedia list,1855,1855,,,,,,,,,
+L352,Chaine Memorial,Larne,54.855,-5.798,Ireland,Maintained by other Irish marine authorities,1899.0,Wikipedia list,1899,1899,1899.0,1888.0,,,Q5067975,,,,
+L353,Dingle Harbour,Dingle,52.1216,-10.2582,Ireland,Maintained by other Irish marine authorities,1885.0,Wikipedia list,1885,1885,,,,,,,,,
+L354,Duncannon Fort,Duncannon Fort,52.2205,-6.9374,Ireland,Maintained by other Irish marine authorities,,none,,Unknown,,,,,,,,,
+L355,Duncannon North,Duncannon,52.2292,-6.9369,Ireland,Maintained by other Irish marine authorities,1838.0,Wikipedia list,1838,1838,,,,,,,,,
+L356,Galway Harbour (The Leverets),Galway Harbour,53.2554,-9.0319,Ireland,Maintained by other Irish marine authorities,1977.0,Wikipedia list,1977,1977,,,,,,,,,
+L357,Howth Harbour,Howth,53.3941,-6.0669,Ireland,Maintained by other Irish marine authorities,1982.0,Wikipedia list,1982,1982,,,,,,,,,
+L358,Moville,Moville,55.1831,-7.0354,Ireland,Maintained by other Irish marine authorities,1882.0,Wikipedia list,1882,1882,,,,,,,,,
+L359,North Bank,Dublin Port,53.3448,-6.1765,Ireland,Maintained by other Irish marine authorities,1882.0,Wikipedia list,1882,1882,,,,,,,,,
+L360,North Bull,North Bull Island,53.3449,-6.1497,Ireland,Maintained by other Irish marine authorities,1880.0,Wikipedia list,1880,1880,,,,,,,,,
+L361,North Wall Quay,Dublin Port,53.3457,-6.2165,Ireland,Maintained by other Irish marine authorities,1904.0,Wikipedia list,1904,1904,,,,,,,,,
+L362,Poolbeg,Poolbeg,53.3421,-6.1517,Ireland,Maintained by other Irish marine authorities,1820.0,Wikipedia list,1820,1820,,,,,,,,,
+L363,Rosslare Harbour,Rosslare Europort,52.2571,-6.3381,Ireland,Maintained by other Irish marine authorities,1906.0,Wikipedia list,1906,1906,,,,,,,,,
+L364,Spillane's Tower,Limerick,52.6558,-8.6615,Ireland,Maintained by other Irish marine authorities,1885.0,Wikipedia list,1885,1885,,,,,,,,,
+L365,Spit Bank,Cobh,51.8453,-8.2739,Ireland,Maintained by other Irish marine authorities,1853.0,Wikipedia list,1853,1853,,,,,,,,,
+L366,Tarbert Island,Tarbet,52.592,-9.3636,Ireland,Maintained by other Irish marine authorities,1834.0,Wikipedia list,1834,1834,,,,,,,,,
+L367,Warren Point,Greencastle,55.2097,-6.9519,Ireland,Maintained by other Irish marine authorities,1861.0,Wikipedia list,1861,1861,,,,,,,,,
+L368,Wicklow East Pier,Wicklow,52.9832,-6.0344,Ireland,Maintained by other Irish marine authorities,1884.0,Wikipedia list,1884,1884,,,,,,,,,
+L369,Youghal Lighthouse,Youghal,51.943,-7.842,Ireland,Maintained by other Irish marine authorities,1852.0,Wikipedia list,1852,1852,,,,,,,,,
+L370,Ballycurrin,Headford,53.4851,-9.213,Ireland,Inactive,1847.0,Wikipedia list,1847,1847,,,,,,,,,
+L371,Blackrock Castle,Cork,51.9,-8.4025,Ireland,Inactive,1582.0,Wikipedia list,1582,1582,,,,1903.0,,,,,
+L372,Calf Rock,Dursey Island,51.585,-10.2763,Ireland,Inactive,1866.0,Wikipedia list,1866,1866,,,,1881.0,,,Bull and Calf Rocks,1866.0,Wikipedia list
+L373,Cape Clear,Cape Clear Island,51.4345,-9.4846,Ireland,Inactive,1818.0,Wikipedia list,1818,1818,,,,1854.0,,,Cape Clear,1818.0,Wikipedia list
+L374,Clare Island,Clare Island,53.8275,-9.9834,Ireland,Inactive,1818.0,Wikipedia list,1818,1818,,,,1965.0,,,Clare Island,1818.0,Wikipedia list
+L375,Culmore Point,Culmore,55.0464,-7.2541,Ireland,Inactive,1920.0,Wikipedia list,1920,1920s,,,,2012.0,,,,,
+L376,Drogheda East,Mornington,53.7192,-6.2476,Ireland,Inactive,1880.0,Wikipedia list,1880,1880s,,,,2007.0,,,,,
+L377,Drogheda North,Mornington,53.7241,-6.2544,Ireland,Inactive,1880.0,Wikipedia list,1880,1880s,,,,2000.0,,,,,
+L378,Drogheda West,Mornington,53.7189,-6.2489,Ireland,Inactive,1880.0,Wikipedia list,1880,1880s,,,,2000.0,,,,,
+L379,Ferris Point,Larne,54.8514,-5.79,Ireland,Inactive,,none,,Unknown,,,,1994.0,,,,,
+L380,Greenore,Greenore,54.0337,-6.1322,Ireland,Inactive,1830.0,Wikipedia list,1830,1830,,,,1986.0,,,,,
+L381,Inishmore,Inishmore,53.1274,-9.7022,Ireland,Inactive,1818.0,Wikipedia list,1818,1818,,,,1857.0,,,Aran Islands,1818.0,Wikipedia list
+L382,Inishowen East,Inishowen,55.2266,-6.9271,Ireland,Inactive,1837.0,Wikipedia list,1837,1837,,,,1961.0,,,Inishowen Head,1837.0,Wikipedia list
+L383,Kilcredaun Head,Carrigaholt,52.5798,-9.7097,Ireland,Inactive,1824.0,Wikipedia list,1824,1824,,,,2011.0,,,Kilcredaun,1824.0,Wikipedia list
+L384,Mutton Island,Mutton Island,53.2541,-9.0535,Ireland,Inactive,1817.0,Wikipedia list,1817,1817,,,,1977.0,,,,,
+L385,Skelling Michael (High),Skelling Michael,51.7702,-10.5438,Ireland,Inactive,1826.0,Wikipedia list,1826,1826,,,,1870.0,,,Skelligs,1826.0,Wikipedia list
+L386,South Rock (Kilwarlin),Kearney,54.403,-5.3833,Ireland,Inactive,1797.0,Wikipedia list,1797,1797,,,,1877.0,,,South Rock,1797.0,Wikipedia list
+L387,West Maidens,The Maidens,54.9957,-5.7136,Ireland,Inactive,1829.0,Wikipedia list,1829,1829,,,,1903.0,,,Maidens,1829.0,Wikipedia list
+L388,Wicklow Head High (1781),Wicklow Head,52.9652,-6.0025,Ireland,Inactive,1781.0,Wikipedia list,1781,1781,,,,1818.0,,,Wicklow Head,1781.0,Wikipedia list
+L389,Calf of Man (low),Calf of Man,54.052616666666665,-4.8289,the Isle of Man,Lighthouses,1815.0,Wikipedia list,1815,1815,,,,,,,Calf of Man,1815.0,Wikipedia list
+L390,Calf of Man (high),Calf of Man,54.053,-4.828583333333333,the Isle of Man,Lighthouses,1815.0,Wikipedia list,1815/1968,1815/1968,,,,,,,Calf of Man,1815.0,Wikipedia list
+L391,Castletown Harbour: Irish Quay,Castletown,54.0724,-4.6499,the Isle of Man,Lighthouses,1944.0,Wikipedia list,1944,1944,,,,,,,,,
+L392,Castletown Harbour: New Pier,Castletown,54.0724,-4.6499,the Isle of Man,Lighthouses,1849.0,Wikipedia list,1849,1849,,,,,,,,,
+L393,Chicken Rock,Chicken Rock,54.03785,-4.838583333333333,the Isle of Man,Lighthouses,1875.0,Wikipedia list,1875,1875,,,,,,,Chicken Rock,1875.0,Wikipedia list
+L394,Douglas Head,Douglas Head,54.14331666666666,-4.465783333333333,the Isle of Man,Lighthouses,1857.0,Wikipedia list,1857,1857,,,,,,,Douglas Head,1857.0,Wikipedia list
+L395,Langness,Dreswick Point,54.05388888888889,-4.625,the Isle of Man,Lighthouses,1880.0,Wikipedia list,1880,1880,,,,,,,Langness,1880.0,Wikipedia list
+L396,Maughold Head,Maughold Head,54.295566666666666,-4.30975,the Isle of Man,Lighthouses,1914.0,Wikipedia list,1914,1914,,,,,,,Maughold Head,1914.0,Wikipedia list
+L397,Point of Ayre,Point of Ayre,54.41598333333334,-4.368516666666666,the Isle of Man,Lighthouses,1818.0,Wikipedia list,1818,1818,,1888.0,2010.0,,Q28375151,,Point of Ayre (Man),1818.0,Wikipedia list
+L398,Point of Ayre Winkie,Point of Ayre,54.41598333333334,-4.368516666666666,the Isle of Man,Lighthouses,1888.0,Wikipedia list,1888,1888,,,,,,,,,
+L399,Port Erin Range Front,Port Erin,54.0872,-4.7594,the Isle of Man,Lighthouses,,none,,Unknown,,,,,Q28375154,,,,
+L400,Thousla Rock,Calf Sound,54.06215,-4.80065,the Isle of Man,Lighthouses,1981.0,Wikipedia list,1981,1981,,,,,,,,,
+L401,Alderney Lighthouse,,49.7292,-2.1643,the Channel Islands,Lighthouses in the Bailiwick of Guernsey,1912.0,Wikidata inception (P571),,,,1912.0,,,Q3739747,,,,
+L402,Bréhon Tower,,49.4713,-2.4883,the Channel Islands,Lighthouses in the Bailiwick of Guernsey,1856.0,Wikidata inception (P571),,,,1856.0,,,Q4981832,,,,
+L403,Crocq Pierhead lighthouse,,49.4829,-2.5165,the Channel Islands,Lighthouses in the Bailiwick of Guernsey,,none,,,,,,,Q129259544,,,,
+L404,Castle Breakwater Lighthouse,,49.4549,-2.5242,the Channel Islands,Lighthouses in the Bailiwick of Guernsey,1850.0,Wikidata inception (P571),,,,1850.0,,,Q28374951,,,,
+L405,Casquets lighthouses,,49.72194444,-2.37694444,the Channel Islands,Lighthouses in the Bailiwick of Guernsey,1724.0,Wikidata inception (P571),,,,1724.0,,,Q15207781,,Casquets,1724.0,Wikidata inception (P571)
+L406,Les Hanois Lighthouse,,49.43361111,-2.70027778,the Channel Islands,Lighthouses in the Bailiwick of Guernsey,1862.0,Wikidata inception (P571),,,,1862.0,,,Q15242263,,Les Hanois,1862.0,Wikidata inception (P571)
+L407,St Martins Point Lighthouse,,49.4218,-2.5283,the Channel Islands,Lighthouses in the Bailiwick of Guernsey,,none,,,,,,,Q129259636,,,,
+L408,Platte Fougère lighthouse,,49.513808,-2.485634,the Channel Islands,Lighthouses in the Bailiwick of Guernsey,1910.0,Wikidata inception (P571),,,,1910.0,,,Q129156771,,,,
+L409,Platte lighthouse,,49.4875,-2.4979,the Channel Islands,Lighthouses in the Bailiwick of Guernsey,,none,,,,,,,Q129259654,,,,
+L410,Roustel Beacon,,49.4872,-2.4803,the Channel Islands,Lighthouses in the Bailiwick of Guernsey,1970.0,Wikidata inception (P571),,,,1970.0,,,Q129259664,,,,
+L411,Sark Lighthouse,,49.43638889,-2.34555556,the Channel Islands,Lighthouses in the Bailiwick of Guernsey,1913.0,Wikidata inception (P571),,,,1913.0,,,Q15275468,,Sark,1913.0,Wikidata inception (P571)
+L412,"St Sampsons South Pier, Range Rear",,49.4825,-2.5177,the Channel Islands,Lighthouses in the Bailiwick of Guernsey,1874.0,Wikidata inception (P571),,,,1874.0,,,Q129259813,,,,
+L413,Tautenay Lighthouse,,49.5017,-2.4469,the Channel Islands,Lighthouses in the Bailiwick of Guernsey,,none,,,,,,,Q129259819,,,,
+L414,Victoria Marina Lighthouse,,49.4554,-2.534,the Channel Islands,Lighthouses in the Bailiwick of Guernsey,,none,,,,,,,Q129259833,,,,
+L415,Q129259837,,49.4563,-2.5265,the Channel Islands,Lighthouses in the Bailiwick of Guernsey,1908.0,Wikidata inception (P571),,,,1908.0,,,Q129259837,,,,
+L416,Hartlepool Old Pier light,,54.6928,-1.18472,Wikidata only,,,none,,,,,,,Q28465918,,,,
+L417,East End Light,,19.3,-81.1,Wikidata only,,1937.0,Wikidata service entry (P729),,,1937.0,1900.0,,,Q5328309,,,,
+L418,Gibraltar Aerobeacon,,36.143884,-5.343053,Wikidata only,,,none,,,,,,,Q5559122,,,,
+L419,Naze Tower,,51.8644,1.28811,Wikidata only,,,none,,,,,,,Q17532846,,,,
+L420,Kylerhea Minor Light,,57.23716,-5.665491,Wikidata only,,,none,,,,,,,Q28465868,,,,
+L421,Fraserburgh Breakwater Light,,57.691873,-1.995129,Wikidata only,,,none,,,,,,,Q28465882,,,,
+L422,Gantock Rocks Light,,55.94088,-4.91777,Wikidata only,,,none,,,,,,,Q28465883,,,,
+L423,Mousa light station,,59.99701,-1.157813,Wikidata only,,,none,,,,,,,Q28465891,,,,
+L424,Ornsay Beacon,,57.15096,-5.781491,Wikidata only,,,none,,,,,,,Q28465894,,,,
+L425,Glenelg Light,,57.2289,-5.64972,Wikidata only,,,none,,,,,,,Q28465895,,,,
+L426,Newlyn Harbour South Pier Light,,50.10296,-5.54277,Wikidata only,,,none,,,,,,,Q28465898,,,,
+L427,Penzance South Pier Light,,50.11771,-5.52796,Wikidata only,,,none,,,,,,,Q28465899,,,,
+L428,Lees Scar Light,,54.863055555,-3.413888888,Wikidata only,,,none,,,,,,,Q28465900,,,,
+L429,St Catherine's Point light,,50.3272,-4.647066666,Wikidata only,,,none,,,,,,,Q28465920,,,,
+L430,Newhaven East Pier Light,,50.78015,0.05976,Wikidata only,,,none,,,,,,,Q28465923,,,,
+L431,Whitehaven North Pier light,,54.552833333,-3.595833333,Wikidata only,,,none,,,,,,,Q28465926,,,,
+L432,East Cote Light,,54.87959,-3.380796,Wikidata only,,,none,,,,,,,Q28465927,,,,
+L433,Morecambe Pier Light,,54.0745,-2.87853,Wikidata only,,,none,,,,,,,Q28465929,,,,
+L434,Near Naze Light,,54.037941666,-2.911833333,Wikidata only,,,none,,,,,,,Q28465930,,,,
+L435,Admiralty Pier light,,51.1114,1.327683333,Wikidata only,,,none,,,,,,,Q28465932,,,,
+L436,Prince of Wales Pier light,,51.114083333,1.322933333,Wikidata only,,,none,,,,,,,Q28465933,,,,
+L437,Dover Breakwater West End light,,51.11315,1.32997,Wikidata only,,,none,,,,,,,Q28465934,,,,
+L438,Dover Breakwater Knuckle light,,51.117466666,1.341516666,Wikidata only,,,none,,,,,,,Q28465935,,,,
+L439,Stoneness Light,,51.460833333,0.281111111,Wikidata only,,,none,,,,,,,Q28465937,,,,
+L440,Amble North Pier light,,55.3398,-1.570583333,Wikidata only,,,none,,,,,,,Q28465938,,,,
+L441,Amble South Pier light,,55.33896,-1.570863,Wikidata only,,,none,,,,,,,Q28465939,,,,
+L442,Blyth East Pier light,,55.11643,-1.486751,Wikidata only,,,none,,,,,,,Q28465940,,,,
+L443,Birkenhead light,,53.395614,-3.008929,Wikidata only,,,none,,,,,,,Q28465943,,,,
+L444,Brixham Breakwater light,,50.40555,-3.512916666,Wikidata only,,,none,,,,,,,Q28465944,,,,
+L445,Calf of Eday light,,59.2369,-2.763453,Wikidata only,,1909.0,Wikidata inception (P571),,,,1909.0,,,Q28465945,,,,
+L446,Rubh Uisenis light,,57.93759,-6.47238,Wikidata only,,,none,,,,,,,Q28465951,,,,
+L447,Aberdeen North Breakwater light,,57.1461,-2.0611,Wikidata only,,,none,,,,,,,Q28465957,,,,
+L448,Steamboat Quay Light,,55.9374,-4.69051,Wikidata only,,,none,,,,,,,Q15118329,,,,
+L449,"Perch Light, Port Glasgow",,55.9375,-4.68761111,Wikidata only,,,none,,,,,,,Q15124558,,,,
+L450,Pentland Skerries Low Light,,58.689881111,-2.924631944,Wikidata only,,,none,,,,,,,Q28379885,,,,
+L451,St Ives Light,,50.2134,-5.4766,Wikidata only,,1890.0,Wikidata inception (P571),,,,1890.0,,,Q28458567,,,,
+L452,Calvay light,,57.14227,-7.256533,Wikidata only,,,none,,,,,,,Q29432228,,,,
+L453,An t-Iasgair Light,,57.6852,-6.43348,Wikidata only,,,none,,,,,,,Q45036520,,,,
+L454,Cairns of Coll Light,,56.704466,-6.445381,Wikidata only,,1909.0,Wikidata inception (P571),,,,1909.0,,,Q106203184,,,,
+L455,West Mouse Pilots Beacon,,53.417596,-4.5547087,Wikidata only,,,none,,,,,,,Q123520137,,,,
+L456,Marine navigation Beacon,,54.3592,-5.53882,Wikidata only,,1859.0,Wikidata inception (P571),,,,1859.0,,,Q126705540,,,,

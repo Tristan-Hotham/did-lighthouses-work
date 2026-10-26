@@ -1,0 +1,466 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Did Lighthouses Work?</title>
+<meta name="description" content="When a lighthouse was first lit on a dangerous stretch of the British and Irish coast, did the wrecks recorded there fall? A before-and-after study of {{sample.n_treated|int}} lights and {{coverage.study_entries|int}} recorded wrecks, 1750 to 1913.">
+<meta property="og:title" content="Did lighthouses work? Wrecks before and after the light">
+<meta property="og:description" content="{{coverage.study_entries|int}} recorded wrecks, {{sample.n_treated|int}} newly lit lighthouses, and what changed at each spot once the light came on.">
+<meta property="og:image" content="https://tristan-hotham.github.io/did-lighthouses-work/header.png">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,800;9..144,900&family=IBM+Plex+Mono:wght@400;500&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&display=swap">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css">
+<style>
+/* Old-survey paper. Orange = the light (lit, rose). Blue = fewer wrecks after lighting. Moss = never-lit comparison places. Gold = other lights. */
+:root{
+  --bg:#F3EEE2; --panel:#EAE3D2; --fg:#1D1A15; --muted:#6B6457; --rule:#D8D0BE; --card:#FBF8F1; --border:#C9BFA9;
+  --hot:#D9480F; --moss:#4D7A2E; --plum:#8E3E9E; --blue:#2763A8; --gold:#A87400;
+  --sea:#DCE4E3; --land:#ECE5D3; --dot:#8D846F;
+  --display:"Fraunces",Georgia,"Times New Roman",serif;
+  --body:"Source Serif 4",Georgia,"Times New Roman",serif;
+  --mono:"IBM Plex Mono",ui-monospace,Menlo,Consolas,monospace;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --bg:#15140F; --panel:#1F1D17; --fg:#EDE8DC; --muted:#A59E8E; --rule:#36332A; --card:#211F19; --border:#48443A;
+  --hot:#F26A30; --moss:#7FAE58; --plum:#C27BD3; --blue:#6E9FE0; --gold:#D6A136;
+  --sea:#111A1C; --land:#26241D; --dot:#857D6B; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#15140F; --panel:#1F1D17; --fg:#EDE8DC; --muted:#A59E8E; --rule:#36332A; --card:#211F19; --border:#48443A;
+  --hot:#F26A30; --moss:#7FAE58; --plum:#C27BD3; --blue:#6E9FE0; --gold:#D6A136;
+  --sea:#111A1C; --land:#26241D; --dot:#857D6B; color-scheme:dark}
+*,*::before,*::after{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--fg);font:400 18px/1.62 var(--body);
+  padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));overflow-x:hidden}
+.wrap{max-width:680px;margin:0 auto;padding-block:28px 64px}
+.wrap .bleed{width:min(1080px,calc(100vw - 32px));margin-left:calc((100% - min(1080px,100vw - 32px))/2);margin-right:0}
+a{color:inherit;text-decoration-color:var(--hot);text-underline-offset:3px}
+.kicker{font:500 12px/1 var(--mono);letter-spacing:.12em;text-transform:uppercase;color:var(--muted);display:flex;gap:10px;flex-wrap:wrap;align-items:center}
+.kicker b{background:var(--hot);color:#fff;padding:5px 8px;font-weight:500}
+header.hero{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:12px 24px;align-items:end;border-bottom:6px double var(--fg);padding-bottom:22px;margin-top:18px}
+h1{font:900 clamp(52px,13vw,112px)/.86 var(--display);letter-spacing:-.02em;margin:0;text-wrap:balance;font-variation-settings:"SOFT" 50}
+h1 em{font-style:normal;color:var(--hot)}
+.mark{width:clamp(92px,21vw,176px);height:auto;display:block}
+.dek{grid-column:1/-1;font-size:21px;line-height:1.42;margin:8px 0 0;max-width:42ch}
+.byline{font:400 13px/1.4 var(--mono);color:var(--muted);margin-top:14px}
+h2{font:800 34px/1.04 var(--display);letter-spacing:-.01em;margin:52px 0 10px;text-wrap:balance}
+h2 .n{font:500 13px/1 var(--mono);color:var(--hot);display:block;letter-spacing:.1em;margin-bottom:10px}
+h3{font:600 20px/1.25 var(--display);margin:28px 0 6px}
+p{margin:0 0 16px}
+.lede::first-letter{font:900 72px/.8 var(--display);float:left;margin:6px 10px 0 0;color:var(--hot)}
+.stats{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:1px;background:var(--rule);border:1px solid var(--rule);margin:26px 0 8px}
+.stats div{background:var(--card);padding:14px 12px}
+.stats b{display:block;font:900 clamp(24px,4.6vw,36px)/1 var(--display);color:var(--fg);white-space:nowrap}
+.stats b.h{color:var(--hot)}
+.stats span{font:400 12px/1.35 var(--mono);color:var(--muted);display:block;margin-top:6px}
+@media (max-width:600px){.stats{grid-template-columns:repeat(2,minmax(0,1fr))}}
+.figure{margin:26px 0 30px}
+.fig-h{font:600 19px/1.25 var(--display);margin:0 0 4px}
+.fig-sub{font:400 13px/1.45 var(--mono);color:var(--muted);margin:0 0 12px}
+.src{font:400 12px/1.45 var(--mono);color:var(--muted);margin-top:10px}
+.chart{width:100%;position:relative}
+.chart svg{display:block;width:100%;height:auto;overflow:visible}
+svg text{font-family:var(--mono);fill:var(--fg)}
+.lab{font-size:12px}.halo{paint-order:stroke;stroke:var(--bg);stroke-width:4px;stroke-linejoin:round}.lab.m{fill:var(--muted)}.lab.b{font-weight:500}.lab.s{font-size:11px}
+.tip{position:absolute;pointer-events:none;background:var(--fg);color:var(--bg);font:400 12px/1.45 var(--mono);padding:8px 10px;border-radius:3px;max-width:270px;z-index:1001;transform:translate(-50%,calc(-100% - 12px));display:none}
+.tip b{font-weight:500}
+.controls{display:flex;gap:8px;flex-wrap:wrap;align-items:center;margin:0 0 10px}
+.btn{font:500 12px/1 var(--mono);background:var(--card);color:var(--fg);border:1px solid var(--border);border-radius:3px;padding:8px 10px;cursor:pointer;min-height:36px}
+.btn[aria-pressed="true"]{background:var(--fg);color:var(--bg);border-color:var(--fg)}
+.btn:focus-visible,input:focus-visible,select:focus-visible{outline:2px solid var(--hot);outline-offset:2px}
+.seg{display:inline-flex;border:1px solid var(--border);border-radius:3px;overflow:hidden}
+.seg .btn{border:0;border-radius:0;border-right:1px solid var(--border)}
+.seg .btn:last-child{border-right:0}
+input[type=search],select{font:400 14px/1 var(--mono);background:var(--card);color:var(--fg);border:1px solid var(--border);border-radius:3px;padding:9px 10px;min-height:36px;flex:1 1 180px;min-width:0}
+.mapgrid{display:grid;grid-template-columns:minmax(0,1.5fr) minmax(0,1fr);gap:18px;align-items:start}
+@media (max-width:820px){.mapgrid{grid-template-columns:1fr}}
+.mapbox{position:relative;border:1px solid var(--border);background:var(--sea);overflow:hidden;border-radius:2px}
+#map{height:min(640px,120vw);background:var(--sea)}
+.leaflet-container{font:400 12px/1.4 var(--mono);background:var(--sea)}
+.leaflet-popup-content-wrapper,.leaflet-popup-tip{background:var(--card);color:var(--fg);border:1px solid var(--border);box-shadow:0 2px 10px rgba(0,0,0,.18)}
+.leaflet-popup-content{margin:10px 12px;font:400 12.5px/1.45 var(--mono)}
+.leaflet-popup-content dl{display:grid;grid-template-columns:auto 1fr;gap:2px 10px;margin:4px 0 0}.leaflet-popup-content dd{margin:0}.leaflet-popup-content dt{color:var(--muted)}
+.leaflet-popup-content b.t{font:600 17px/1.2 var(--display);display:block;margin-bottom:4px}
+.leaflet-container a.leaflet-popup-close-button{color:var(--muted)}
+.leaflet-control-attribution{background:color-mix(in srgb,var(--card) 85%,transparent)!important;color:var(--muted)!important;font:400 10px/1.3 var(--mono)}
+.leaflet-control-attribution a{color:var(--fg)!important}
+.leaflet-bar a{background:var(--card);color:var(--fg);border-bottom-color:var(--border)}
+.leaflet-bar a:hover{background:var(--panel)}
+.leaflet-bar{border:1px solid var(--border)!important;box-shadow:none!important}
+.lit{filter:drop-shadow(0 0 3px var(--gold))}
+.beam{transform-origin:center;animation:sweep 3.2s linear infinite}
+@keyframes sweep{to{transform:rotate(360deg)}}
+@media (prefers-reduced-motion:reduce){.beam{animation:none}}
+.slider{display:flex;gap:10px;align-items:center;margin:10px 0 0;flex-wrap:wrap}
+.slider input[type=range]{flex:1 1 220px;min-width:0;accent-color:var(--hot);height:28px}
+.slider .yr{font:900 34px/1 var(--display);color:var(--hot);min-width:3.2ch}
+.slider .cnt{font:400 12px/1.3 var(--mono);color:var(--muted);flex:1 1 100%}
+.legend{display:flex;gap:14px;flex-wrap:wrap;font:400 12px/1.3 var(--mono);color:var(--muted);margin-top:8px}
+.legend i{display:inline-block;width:10px;height:10px;border-radius:50%;margin-right:6px;vertical-align:-1px}
+.side{display:flex;flex-direction:column;gap:12px}
+.card{background:var(--card);border:1px solid var(--border);border-left:4px solid var(--hot);padding:12px 14px;font:400 13px/1.5 var(--mono)}
+.card.empty{border-left-color:var(--border);color:var(--muted)}
+.card b.t{font:600 20px/1.2 var(--display);display:block;margin-bottom:6px}
+.card dl{display:grid;grid-template-columns:auto 1fr;gap:2px 12px;margin:6px 0 0}
+.card dt{color:var(--muted)}.card dd{margin:0}
+.toplist{list-style:none;margin:0;padding:0;font:400 12.5px/1.3 var(--mono);max-height:380px;overflow:auto;border:1px solid var(--rule);background:var(--card)}
+.toplist li{display:grid;grid-template-columns:minmax(0,1fr) auto auto;gap:8px;padding:7px 10px;border-bottom:1px solid var(--rule);cursor:pointer;align-items:center}
+.toplist li:hover,.toplist li:focus-visible{background:var(--panel);outline:none}
+.toplist .v{color:var(--muted)}.toplist .d.dn{color:var(--blue)}.toplist .d.up{color:var(--hot)}
+.toplist .nm{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.pull{font:600 26px/1.25 var(--display);border-left:6px solid var(--hot);padding:4px 0 4px 18px;margin:30px 0}
+.note{background:var(--panel);border:1px solid var(--rule);padding:14px 16px;font-size:16px;margin:22px 0}
+.note h3{margin-top:0}
+table.t{width:100%;border-collapse:collapse;font:400 13px/1.35 var(--mono)}
+table.t th{text-align:left;font-weight:500;color:var(--muted);border-bottom:2px solid var(--fg);padding:6px 8px 6px 0}
+table.t td{border-bottom:1px solid var(--rule);padding:7px 8px 7px 0;vertical-align:top}
+table.t td.num,table.t th.num{text-align:right}
+.tablewrap{overflow-x:auto}
+.cta{display:flex;gap:10px;flex-wrap:wrap;margin:18px 0}
+.cta a{font:500 13px/1 var(--mono);text-decoration:none;border:1px solid var(--fg);padding:11px 14px;border-radius:3px}
+.cta a.p{background:var(--hot);border-color:var(--hot);color:#fff}
+footer{border-top:6px double var(--fg);margin-top:56px;padding-top:16px;font:400 13px/1.55 var(--mono);color:var(--muted)}
+footer p{margin:0 0 10px}
+.theme{position:fixed;right:12px;bottom:12px;z-index:1002}
+ul.plain{padding-left:20px;margin:0 0 16px}ul.plain li{margin-bottom:8px}
+@media print{.theme,.controls,.slider{display:none}}
+</style>
+</head>
+<body>
+<div class="wrap">
+<div class="kicker"><b>Data study</b><span>History × data</span><span>Britain and Ireland</span></div>
+<header class="hero">
+  <h1>Did <em>lighthouses</em> work?</h1>
+  <svg class="mark" viewBox="-100 -100 200 200" aria-hidden="true"><g id="heroMark"></g></svg>
+  <p class="dek">Between 1760 and 1900 the coasts of Britain and Ireland were ringed with new lights. I counted the wrecks recorded at each spot before and after its light was first lit.</p>
+</header>
+<div class="byline">Dr Tristan Hotham, Independent researcher · October 2026 · Data: Wikipedia "List of shipwrecks" pages, Wikipedia lighthouse lists, Wikidata</div>
+
+<div class="stats">
+  <div><b>{{coverage.study_entries|int}}</b><span>wreck entries parsed, 1750 to 1913</span></div>
+  <div><b>{{sample.n_treated|int}}</b><span>lights first lit 1760 to 1900, each a test case</span></div>
+  <div><b class="h">+{{did_donut.runup.pct|abs_pct0}}</b><span>wrecks named at a site in the 5 years before its light</span></div>
+  <div><b>{{did_donut.post.pct|pct0}}</b><span>after the light, against the earlier years (95%: {{did_donut.post.pct_lo|pct0}} to +{{did_donut.post.pct_hi|abs_pct0}})</span></div>
+</div>
+
+<p class="lede">Lighthouses were one of the great public works of the eighteenth and nineteenth centuries. Between 1760 and 1900 new lights went up on rocks, headlands and sandbanks all round Britain and Ireland, some of them on reefs that took years to build on. The obvious question is whether they worked. Once a light was lit, did the wrecks at that spot stop?</p>
+<p>I cannot count the wrecks that never happened. But Wikipedia's volunteers have built something close to a register of the ones that did: month-by-month lists of shipwrecks, compiled largely from Lloyd's List and the newspapers of the day. Most entries say where the ship was lost: "wrecked on the Gunfleet Sand", "driven ashore at Flamborough Head". So for each lighthouse I counted how often the record names its rock, headland or sandbank, year by year, and compared the years before its first light with the years after.</p>
+<p>The answer is less tidy than I expected. Wrecks named at a site rose by about {{did_donut.runup.pct|pct0}} in the five years before it got its light. Lights were lit where ships had just been lost. After the light, mentions were about {{did_donut.post.pct|abs_pct0}} lower than in the earlier, quieter years, but the 95% interval runs from {{did_donut.post.pct_lo|abs_pct0}} lower to {{did_donut.post.pct_hi|pct0}} higher. That is consistent with a modest fall, and also with none.</p>
+
+<h2><span class="n">01 · The record</span>A list that grows and shrinks</h2>
+<p>The record is not a steady instrument. The chart below shows how many entries I could parse for each year. Before 1750 most yearly pages redirect to decade pages I did not have, so the study starts in 1750. In the 1760s there are about {{coverage.mean_1760s|int}} entries a year. In the 1850s there are {{coverage.mean_1850s|int}}, and the busiest year before the First World War, {{coverage.peak_year|year}}, has {{coverage.peak_entries|int}}. Then the monthly pages stop. From 1891 there is one page per year, and from 1895 to 1913 the lists average {{coverage.mean_1895_1913|int}} entries a year.</p>
+<p>That matters more than anything else here. A place can look safer simply because fewer wrecks were written down. So I never compare raw counts across years. In the simple comparison I divide each site's mentions by the number of entries in British and Irish waters that year. In the models every calendar year gets its own baseline, shared by lit sites and comparison sites, which soaks up changes in how much the record holds. I stop in 1913, before war changes what the lists are about.</p>
+<p>Of the {{coverage.study_entries|int}} entries from 1750 to 1913, {{coverage.study_home|int}} name a place in Britain, Ireland, the Isle of Man or the Channel Islands. Together they mention my {{sample.n_sites_total|int}} sites {{coverage.site_mentions|int}} times.</p>
+<div class="figure bleed">
+  <div class="fig-h">Wreck entries per year in Wikipedia's lists of shipwrecks</div>
+  <div class="fig-sub">Bars: all entries, anywhere in the world. Orange line: entries that name a place in Britain, Ireland, the Isle of Man or the Channel Islands (study years only). Shaded: the years used here.</div>
+  <div class="chart" id="cov"></div>
+  <div class="src">Source: {{coverage.total_entries|int}} entries parsed from the Wikipedia pages "List of shipwrecks in 1700" to "List of shipwrecks in September 1945" (CC BY-SA 4.0). Pages for 1700 to 1749 redirect to decade pages that were not in the download.</div>
+</div>
+
+<h2><span class="n">02 · The map</span>Lighting the coast</h2>
+<p>The map shows every site I used. Drag the slider, or press play, to watch the coast light up. Each circle is a hazard, sized by how often the record names it. Blue circles were named less often in the ten years after their first light than in the ten years before, as a share of that year's wrecks in home waters. Orange circles were named more often. Dashed green circles are places that never got a lighthouse in these years, such as the Manacles and the Runnelstone off Cornwall. Small gold dots are the other lights in the Wikipedia lists and Wikidata, many of them harbour lights.</p>
+<p>Blue and orange are almost evenly matched. Of the {{simple.w10.n_with_mentions|int}} test sites named at all in those twenty years, {{simple.w10.fell|int}} were named less often after the light and {{simple.w10.rose|int}} more often.</p>
+<div class="figure bleed">
+  <div class="mapgrid">
+    <div>
+      <div class="mapbox"><div id="map" role="region" aria-label="Map of lighthouse sites in Britain and Ireland, with a year slider"></div></div>
+      <div class="slider">
+        <button class="btn" id="play" aria-label="Play through the years">▶ Play</button>
+        <span class="yr" id="yr">1800</span>
+        <input type="range" id="yrs" min="1750" max="1913" step="1" value="1800" aria-label="Year">
+        <span class="cnt" id="cnt"></span>
+      </div>
+      <div class="legend" id="legend"></div>
+    </div>
+    <div class="side">
+      <div class="card empty" id="card">Tap a circle, or pick a site from the list, to see its record.</div>
+      <div class="fig-h" style="margin-top:4px">Test sites with the most wreck mentions</div>
+      <ol class="toplist" id="toplist"></ol>
+    </div>
+  </div>
+  <div class="src">Circle size: wreck entries naming the site, 1750 to 1913. Colour: change in the share of the year's home-waters wrecks naming the site, 10 years after first lighting against 10 years before. Lit lights glow once the slider passes their first-lit year. Base map tiles © Esri, HERE, Garmin, © OpenStreetMap contributors, and the GIS user community.</div>
+</div>
+
+<h2><span class="n">03 · Before and after</span>The simple count</h2>
+<p>The simplest test adds up all {{simple.w10.n_lights|int}} test sites. In the ten years before first lighting they were named in {{simple.w10.before|int}} wreck entries. In the ten years after, {{simple.w10.after|int}}. Allowing for the size of the record each year, the rate after lighting was {{simple.w10.pooled_ratio|x2}} times the rate before. Over twenty years either side it was {{simple.w20.pooled_ratio|x2}} times.</p>
+<p>For a yardstick I gave the never-lit places the same dates, one copy for each lit site. Their ratio was {{simple.controls_same_dates_w10.pooled_ratio|x2}}. So over ten years the lit places did fall relative to places that got no light. Over twenty years most of that gap closes.</p>
+<p>One site carries a lot of the ten-year fall. The Gunfleet, a sandbank off the Essex coast, got its lighthouse in {{site:Gunfleet.first_lit|year}}. It was named in {{site:Gunfleet.before10|int}} wreck entries in the ten years before and {{site:Gunfleet.after10|int}} in the ten years after. Souter, on the Durham coast by Whitburn, went from {{site:Souter (Whitburn).before10|int}} to {{site:Souter (Whitburn).after10|int}} either side of {{site:Souter (Whitburn).first_lit|year}}. But for every Gunfleet there is a Happisburgh, where the light of {{site:Happisburgh.first_lit|year}} was followed by more mentions of the Haisborough Sands, not fewer: {{site:Happisburgh.before10|int}} before, {{site:Happisburgh.after10|int}} after.</p>
+
+<h2><span class="n">04 · The event study</span>Year by year around the light</h2>
+<p>Adding up before and after hides the shape. The chart follows the test sites in five-year steps, against comparison places over the same calendar years: the never-lit hazards, and lights that had not yet been lit. Every value is relative to the five years just before the light.</p>
+<p>The striking thing is on the left. In the five years before a light was lit, its site was named {{did_donut.runup.pct|pct0}} more often than in the fifteen years before that (95% interval {{did_donut.runup.pct_lo|pct0}} to {{did_donut.runup.pct_hi|pct0}}). It fits a simple story: a bad run of wrecks made the case for a light, and a few years later the light was lit.</p>
+<p>After lighting, the line falls back. But it falls to about where it was before the run-up, not far below it. Measured against the years 6 to 20 before lighting, mentions after lighting were {{did_donut.post.pct|abs_pct0}} lower, with a 95% interval from {{did_donut.post.pct_lo|abs_pct0}} lower to {{did_donut.post.pct_hi|pct0}} higher.</p>
+<p class="pull">The wrecks came first, then the light. After the light, wrecks at the spot went back to normal, and perhaps a little below it.</p>
+<p>This is why a plain before-and-after comparison misleads. Compare the twenty years after with the twenty years before, run-up included, and you get a fall of {{did_w20.pct|abs_pct0}} (95% interval {{did_w20.pct_lo|abs_pct0}} lower to {{did_w20.pct_hi|pct1}} higher). Much of that is the run-up fading, which would probably have happened with no light at all. Statisticians call it regression to the mean.</p>
+<div class="figure">
+  <div class="fig-h">Wreck mentions at a site, relative to the five years before it was first lit</div>
+  <div class="fig-sub">Stacked Poisson event study, 5-year bins. 1.0 = no change. Bars show 95% intervals. Log scale.</div>
+  <div class="chart" id="event"></div>
+  <div class="src">Each newly lit site is compared with never-lit hazards and with lights not yet lit, over the same years. Site and year effects within each comparison. Standard errors clustered by site.</div>
+</div>
+
+<h2><span class="n">05 · Pick a lighthouse</span>One site at a time</h2>
+<p>Choose any site to see its own record. The orange line marks the first lighting, and the shaded blocks are the ten years either side used in the simple comparison. Most sites are named only a handful of times a decade, so a single site tells you little on its own. That is why I pool them. Try the Gunfleet, Souter, Flamborough Head, or the Manacles, which never got a light.</p>
+<div class="figure">
+  <div class="controls">
+    <select id="pick" aria-label="Choose a site"></select>
+  </div>
+  <div class="fig-h" id="pickh"></div>
+  <div class="fig-sub" id="picks"></div>
+  <div class="chart" id="pickc"></div>
+  <div class="src" id="pickn"></div>
+</div>
+
+<h2><span class="n">06 · Checks</span>Could it be chance?</h2>
+<p>I tried the estimate many ways. The chart shows the after-lighting change measured against the years 6 to 20 before, so the run-up is set aside each time, plus the plain version and two placebos at the bottom.</p>
+<p>Using only never-lit places as the comparison gives {{robustness.never_lit_controls_only.donut.pct|spct0}}. Using only lights not yet lit gives {{robustness.later_lit_controls_only.donut.pct|spct0}}. Dropping the sites whose first-lit dates I corrected by hand gives {{robustness.drop_hand_overrides.donut.pct|spct0}}. Leaving out any one test site moves the estimate between ×{{leave_one_out.donut_min|x2}} and ×{{leave_one_out.donut_max|x2}}. None of these intervals rules out no change.</p>
+<p>Two splits differ more. Lights first lit from 1841 to 1900 show {{robustness.lit_1841_1900.donut.pct|spct0}}, against {{robustness.lit_1760_1840.donut.pct|spct0}} for those lit from 1760 to 1840. Headlands and sands show {{robustness.headlands_and_sands.donut.pct|spct0}}, rocks and islands {{robustness.rocks_and_islands.donut.pct|spct0}}. I would not lean on either. The later lights were lit when the record was fullest, and I tried several splits, so one of them looking stronger is no surprise.</p>
+<p>Then the placebos. If I pretend each light was lit ten years early, the method finds a "rise" of {{placebo_early.pct|spct0}}, because the fake after-period contains the real run-up. If I move the fake date fifteen years early and stop before the run-up, the placebo is {{placebo_early_norunup.pct|spct0}} (95% interval {{placebo_early_norunup.pct_lo|spct0}} to {{placebo_early_norunup.pct_hi|spct0}}).</p>
+<p>Last, I dealt the real lighting years out at random among the test sites {{permutation_donut.n|int}} times and re-estimated each time. {{permutation_donut.share_below|pct0}} of the shuffled estimates were as low as the real one or lower. A real effect this size would be hard to tell from luck in data this sparse.</p>
+<div class="figure">
+  <div class="fig-h">The same estimate under different choices</div>
+  <div class="fig-sub">Ratio of wreck mentions after first lighting to before, against comparison sites. 1.0 = no change. 95% intervals. Log scale.</div>
+  <div class="chart" id="rob"></div>
+</div>
+<div class="figure">
+  <div class="fig-h">Shuffled lighting dates</div>
+  <div class="fig-sub">The estimate when the real first-lit years are dealt out at random among the same sites, {{permutation.n|int}} times. The orange line is the real estimate.</div>
+  <div class="chart" id="perm"></div>
+</div>
+
+<h2><span class="n">07 · Caveats</span>What this cannot show</h2>
+<ul class="plain">
+<li><b>Lights went where wrecks were.</b> Sites were not lit at random. The run-up in the five years before lighting is the visible part of that. If a light was lit after an unusually bad spell, some fall afterwards was coming anyway.</li>
+<li><b>Lights changed where ships went.</b> A light lets ships pass closer, sail at night, or use a route they avoided before. More traffic past a lit headland could mean more wrecks near it even if each passage was safer. This data counts wrecks, not voyages.</li>
+<li><b>Words, not wrecks.</b> I count descriptions that name a site. A wreck described by a nearby town is missed, and a few names are shared with other places. I removed sentences about voyages and towing, other ships named in a description, and places given only as a reference point more than 10 miles away. Some ships appear more than once when reports differed.</li>
+<li><b>Steam replaced sail.</b> The year baselines absorb changes common to all sites, such as steam, bigger ships, lifeboats and charts. They do not absorb changes that hit some coasts harder than others.</li>
+<li><b>The record changes.</b> What reached Lloyd's List and the newspapers, and what Wikipedia's editors have transcribed so far, varies by year and by coast. The fall in entries after 1890 is the clearest example.</li>
+<li><b>Other aids.</b> Several comparison places had buoys or bells, and many sandbanks had lightvessels whose dates are not in my sources. I left lightvessel stations such as the Goodwin Sands out.</li>
+<li><b>Dates.</b> The lists often give the year of the current tower, not the first light at the site. I corrected {{sample.n_overrides|int}} well-known cases by hand and kept {{sample.n_excluded|int}} sites out of the estimates because an older light stood there before the record begins or before the date in my sources.</li>
+</ul>
+<p>Put together, the record does not show lighthouses ending wrecks at the spots they guarded. It shows lights arriving after a bad run, and wrecks there then settling at or a little below their earlier level. That is not the same as saying lights did nothing. A light can save ships that would have been lost somewhere else along the coast, or make voyages faster and trade heavier. Wreck lists by place cannot see those gains.</p>
+
+<div class="note" id="method">
+  <h3>How I did this</h3>
+  <p><b>Wrecks.</b> I parsed every entry in English Wikipedia's "List of shipwrecks" pages from 1700 to 1945 ({{coverage.total_entries|int}} entries), taking the date from the section it sits in, the ship's name, its flag and the description as plain text. A check of {{spot.entries_checked|int}} random entries against the page source found {{spot.entries_wrong|int}} errors in date, ship, flag or description, and {{spot.entries_cosmetic|int}} cosmetic leftover (an empty bracket where a map reference was removed).</p>
+<p><b>Lighthouses.</b> I combined the Wikipedia lists of lighthouses in England, Wales, Scotland, Ireland, the Isle of Man and the Channel Islands with Wikidata. The first-lit year is the list's year, then Wikidata's service entry, then its inception. Where a list gives two years (first light and current tower) I use the first. A check of {{spot.lights_checked|int}} random list rows found {{spot.lights_wrong|int}} mismatches.</p>
+<p><b>Sites.</b> I wrote out by hand which hazard each light guards and the names a wreck description uses for it. The full list, with every pattern, is in aliases.py in the data release so anyone can audit it. I checked the British names against the Ordnance Survey's gazetteer for same-named places elsewhere. Test sites are lights first lit from 1760 to 1900 that are not excluded: {{sample.n_treated|int}} of them, first lit from {{sample.treated_first|year}} to {{sample.treated_last|year}}. Comparison places are {{sample.n_controls_never|int}} never-lit hazards and lights not yet lit.</p>
+<p><b>Models.</b> For each test site I built a comparison of its years from 20 before to 20 after lighting with the comparison places over the same years. I stacked these and fitted a Poisson model with site and year effects inside each comparison, clustering standard errors by site. The main estimate gives the five-year run-up its own term, so the after-lighting change is measured against years 6 to 20 before.</p>
+</div>
+<div class="cta">
+  <a class="p" href="https://github.com/Tristan-Hotham/did-lighthouses-work">Data and code</a>
+  <a href="https://en.wikipedia.org/wiki/Lists_of_shipwrecks">Wikipedia's lists of shipwrecks</a>
+</div>
+<footer>
+  <p>Dr Tristan Hotham, researcher on social media, campaigns and politics. Independent researcher.</p>
+  <p>I wrote the text, with drafting and editing assistance from Claude (Anthropic), which also helped prepare the analysis code. I reviewed and checked all text and results.</p>
+  <p>Wreck records: Wikipedia contributors, "List of shipwrecks" pages, CC BY-SA 4.0 (full text on Wikipedia). Lighthouse lists: Wikipedia contributors, CC BY-SA 4.0. Lighthouse data: Wikidata, CC0. Alias check: OS Open Names, contains OS data © Crown copyright and database right 2026, Open Government Licence v3.0. Base map: tiles © Esri, HERE, Garmin, © OpenStreetMap contributors, and the GIS user community.</p>
+  <p>Derived wreck data and text released under CC BY-SA 4.0. Code under the MIT licence.</p>
+</footer>
+</div>
+<div class="tip" id="tip"></div>
+<button class="btn theme" id="theme" aria-label="Toggle dark mode">◐</button>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
+<script>
+/*__DATA__*/
+const NS = "http://www.w3.org/2000/svg";
+const reduce = matchMedia("(prefers-reduced-motion: reduce)").matches;
+const css = v => getComputedStyle(document.documentElement).getPropertyValue(v).trim();
+const el = (t, a = {}, p) => { const e = document.createElementNS(NS, t); for (const k in a) e.setAttribute(k, a[k]); if (p) p.appendChild(e); return e; };
+const fmt = n => Math.round(n).toLocaleString("en-GB");
+const tip = document.getElementById("tip");
+function showTip(h, x, y) { tip.innerHTML = h; tip.style.display = "block"; const w = tip.offsetWidth; x = Math.max(w / 2 + 8, Math.min(innerWidth - w / 2 - 8, x)); tip.style.left = x + scrollX + "px"; tip.style.top = y + scrollY + "px"; }
+function hideTip() { tip.style.display = "none"; }
+function hover(node, h) { node.style.cursor = "pointer"; node.setAttribute("tabindex", "0"); const s = () => { const r = node.getBoundingClientRect(); showTip(typeof h === "function" ? h() : h, r.left + r.width / 2, r.top); }; node.addEventListener("pointerenter", s); node.addEventListener("pointerleave", hideTip); node.addEventListener("focus", s); node.addEventListener("blur", hideTip); node.addEventListener("click", e => { s(); e.stopPropagation(); }); }
+document.addEventListener("click", hideTip);
+const redraws = [];
+function resp(box, render) { let last = 0; const go = (force) => { const w = Math.max(280, Math.round(box.clientWidth)); if (!force && Math.abs(w - last) < 4) return; last = w; box.innerHTML = ""; render(w, w < 560); }; new ResizeObserver(() => go()).observe(box); go(); redraws.push(() => go(true)); }
+const lbl = (svg, x, y, s, cls = "lab", anchor = "start") => { const t = el("text", { x, y, class: cls, "text-anchor": anchor }, svg); t.textContent = s; return t; };
+const isDark = () => { const r = document.documentElement; return r.dataset.theme ? r.dataset.theme === "dark" : matchMedia("(prefers-color-scheme: dark)").matches; };
+const xfmt = v => (v >= 1 ? "+" : "\u2212") + Math.abs(Math.round((v - 1) * 100)) + "%";
+
+/* theme toggle */
+document.getElementById("theme").onclick = () => { const r = document.documentElement; r.dataset.theme = isDark() ? "light" : "dark"; redraws.forEach(f => f()); window.__theme && window.__theme(); };
+
+/* hero mark: a lighthouse on a rock, with a sweeping beam */
+(() => { const g = document.getElementById("heroMark");
+  const beam = el("g", { class: "beam" }, el("g", { transform: "translate(0,-52)" }, g));
+  el("path", { d: "M0 0 L96 -22 L96 22 Z", fill: "var(--gold)", opacity: .35 }, beam);
+  el("path", { d: "M0 0 L-96 -22 L-96 22 Z", fill: "var(--gold)", opacity: .2 }, beam);
+  el("path", { d: "M-70 92 Q-40 60 0 66 Q40 60 70 92 Z", fill: "var(--fg)", opacity: .85 }, g);
+  el("path", { d: "M-20 70 L-13 -40 L13 -40 L20 70 Z", fill: "var(--card)", stroke: "var(--fg)", "stroke-width": 3 }, g);
+  [[-18, 40, 18, 30], [-16, 8, 16, -2]].forEach(([x1, y1, x2, y2]) => el("path", { d: `M${x1} ${y1} L${x2} ${y2} L${x2 + 1} ${y2 + 12} L${x1 - 1} ${y1 + 12} Z`, fill: "var(--hot)" }, g));
+  el("rect", { x: -17, y: -62, width: 34, height: 22, fill: "var(--fg)" }, g);
+  el("circle", { cx: 0, cy: -52, r: 8, fill: "var(--gold)" }, g);
+  el("path", { d: "M-20 -62 L0 -80 L20 -62 Z", fill: "var(--hot)" }, g);
+  el("path", { d: "M-86 92 Q-60 82 -34 92 T18 92 T70 92 T96 92", fill: "none", stroke: "var(--blue)", "stroke-width": 3, opacity: .7 }, g);
+})();
+
+/* ===== coverage chart ===== */
+resp(document.getElementById("cov"), (W, nar) => {
+  const H = nar ? 230 : 280, m = { l: 46, r: 8, t: 12, b: 26 }, svg = el("svg", { viewBox: `0 0 ${W} ${H}`, role: "img", "aria-label": "Wreck entries per year, 1700 to 1945" }, document.getElementById("cov"));
+  const A = D.cov.all, y0 = D.cov.y0, n = A.length, max = Math.max(...A), top = Math.ceil(max / 1000) * 1000;
+  const X = i => m.l + i / n * (W - m.l - m.r), Y = v => H - m.b - v / top * (H - m.t - m.b), bw = Math.max(1, (W - m.l - m.r) / n - .6);
+  el("rect", { x: X(D.Y0 - y0), y: m.t, width: X(D.Y1 - y0 + 1) - X(D.Y0 - y0), height: H - m.t - m.b, fill: "var(--panel)" }, svg);
+  for (let t = 0; t <= top; t += top / 4) { el("line", { x1: m.l, x2: W - m.r, y1: Y(t), y2: Y(t), stroke: "var(--rule)" }, svg); lbl(svg, m.l - 6, Y(t) + 4, fmt(t), "lab m s", "end"); }
+  A.forEach((v, i) => { const r = el("rect", { x: X(i), y: Y(v), width: bw, height: H - m.b - Y(v), fill: "var(--dot)", opacity: .75 }, svg); hover(r, `<b>${y0 + i}</b><br>${fmt(v)} entries` + (y0 + i >= D.cov.home0 && y0 + i <= D.Y1 ? `<br>${fmt(D.cov.home[y0 + i - D.cov.home0])} in home waters` : "")); });
+  const hp = D.cov.home.map((v, i) => (i ? "L" : "M") + (X(D.cov.home0 - y0 + i) + bw / 2).toFixed(1) + " " + Y(v).toFixed(1)).join("");
+  el("path", { d: hp, fill: "none", stroke: "var(--hot)", "stroke-width": 2 }, svg);
+  const step = nar ? 50 : 25; for (let y = 1700; y <= 1945; y += step) lbl(svg, X(y - y0), H - 8, y, "lab m s", "middle");
+  lbl(svg, X(D.Y0 - y0) + 6, m.t + 14, "years used", "lab m s");
+});
+
+/* ===== map ===== */
+const SITES = D.sites;
+const testSites = SITES.filter(s => s.g === "light");
+const change = s => (s.rb == null || (s.b + s.a) === 0) ? null : (s.ra - s.rb);
+function colourOf(s) { if (s.g === "control") return "--moss"; const c = change(s); if (c == null) return "--dot"; return c < 0 ? "--blue" : c > 0 ? "--hot" : "--dot"; }
+function spark(s, w = 220, h = 54) {
+  const v = s.s, n = v.length, max = Math.max(1, ...v), X = i => 2 + i / (n - 1) * (w - 4), Y = y => h - 12 - y / max * (h - 18);
+  let bars = ""; v.forEach((y, i) => { if (y) bars += `<rect x="${X(i).toFixed(1)}" y="${Y(y).toFixed(1)}" width="${Math.max(1, (w - 4) / n).toFixed(1)}" height="${(h - 12 - Y(y)).toFixed(1)}" fill="var(--fg)" opacity=".7"/>`; });
+  const ly = s.y && s.y >= D.Y0 && s.y <= D.Y1 ? `<line x1="${X(s.y - D.Y0)}" x2="${X(s.y - D.Y0)}" y1="0" y2="${h - 12}" stroke="var(--hot)" stroke-width="2"/>` : "";
+  return `<svg width="${w}" height="${h}" viewBox="0 0 ${w} ${h}" style="display:block;margin-top:6px"><line x1="2" x2="${w - 2}" y1="${h - 12}" y2="${h - 12}" stroke="var(--rule)"/>${bars}${ly}<text x="2" y="${h - 1}" font-size="10" fill="var(--muted)">${D.Y0}</text><text x="${w - 2}" y="${h - 1}" font-size="10" fill="var(--muted)" text-anchor="end">${D.Y1}</text></svg>`;
+}
+function siteHTML(s) {
+  const lit = s.y ? (s.y < D.Y0 ? `${s.y}, before the record starts` : s.y) : "never lit";
+  let h = `<b class="t">${s.n}</b>`;
+  h += `<dl><dt>First lit</dt><dd>${s.g === "control" ? "no lighthouse (comparison site)" : lit}</dd>`;
+  if (s.g !== "control") h += `<dt>Date from</dt><dd>${s.src || "none"}</dd>`;
+  h += `<dt>Mentions</dt><dd>${fmt(s.tot)} wreck entries, ${D.Y0} to ${D.Y1}</dd>`;
+  if (s.b != null) h += `<dt>10 yrs before</dt><dd>${s.b} (${s.rb.toFixed(2)} per 1,000 home wrecks)</dd><dt>10 yrs after</dt><dd>${s.a} (${s.ra.toFixed(2)} per 1,000)</dd>`;
+  h += `</dl>`;
+  if (s.x) h += `<div style="color:var(--muted);margin-top:6px">Not a test case: ${s.x}.</div>`;
+  if (s.note) h += `<div style="color:var(--muted);margin-top:6px">${s.note}</div>`;
+  h += spark(s);
+  return h;
+}
+(() => {
+  const map = L.map("map", { zoomSnap: .25, scrollWheelZoom: false, attributionControl: true }).setView([55.2, -4.6], 5.25);
+  const tile = t => L.tileLayer(`https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/${t}/MapServer/tile/{z}/{y}/{x}`, { maxZoom: 16, attribution: 'Tiles &copy; Esri, HERE, Garmin, &copy; OpenStreetMap contributors, and the GIS user community' });
+  const tname = () => isDark() ? "World_Dark_Gray_Base" : "World_Light_Gray_Base";
+  let base = tile(tname()).addTo(map);
+  window.__theme = () => { map.removeLayer(base); base = tile(tname()).addTo(map); restyle(); };
+  const fitB = () => map.fitBounds([[49.8, -10.6], [60.9, 1.8]], { padding: [6, 6] });
+  fitB(); addEventListener("resize", () => { clearTimeout(window.__rz); window.__rz = setTimeout(() => map.invalidateSize(), 150); });
+  const others = D.lights.filter(l => !l[4]).map(l => ({ l, m: L.circleMarker([l[0], l[1]], { radius: 2.2, weight: 0, fillOpacity: .8 }).bindTooltip(`${l[3]} (first lit ${l[2]})`) }));
+  others.forEach(o => o.m.addTo(map));
+  const mk = SITES.map(s => { const r = Math.max(3.5, Math.sqrt(s.tot) * 1.15);
+    const m = L.circleMarker([s.la, s.lo], { radius: r, weight: 1.6 }).addTo(map);
+    m.bindPopup(() => siteHTML(s), { maxWidth: 260 }); m.on("click", () => showCard(s)); return { s, m, r }; });
+  const card = document.getElementById("card");
+  function showCard(s) { card.classList.remove("empty"); card.style.borderLeftColor = `var(${colourOf(s)})`; card.innerHTML = siteHTML(s); }
+  let year = 1800;
+  function restyle() {
+    const lit = 0; let nLit = 0;
+    others.forEach(o => { const on = o.l[2] <= year; o.m.setStyle({ fillColor: css("--gold"), fillOpacity: on ? .85 : 0, opacity: 0 }); });
+    mk.forEach(o => { const s = o.s, on = s.g === "light" && s.y && s.y <= year, col = css(colourOf(s));
+      if (on) nLit++;
+      o.m.setStyle({ color: on ? css("--gold") : col, fillColor: col, fillOpacity: on ? .85 : (s.g === "control" ? .35 : .12), opacity: on ? 1 : .8, weight: on ? 2.2 : 1.4, dashArray: s.g === "control" ? "3 3" : null });
+      const p = o.m.getElement && o.m.getElement(); if (p) p.classList.toggle("lit", !!on); });
+    const nAll = D.lights.filter(l => l[2] <= year).length;
+    document.getElementById("cnt").textContent = `${nLit} of ${testSites.length} lighthouse sites lit by ${year} · ${nAll} lights in the full list dated ${year} or earlier`;
+  }
+  const yrs = document.getElementById("yrs"), yl = document.getElementById("yr");
+  yrs.addEventListener("input", () => { year = +yrs.value; yl.textContent = year; restyle(); });
+  let timer = null; const play = document.getElementById("play");
+  play.onclick = () => { if (timer) { clearInterval(timer); timer = null; play.textContent = "▶ Play"; return; }
+    if (+yrs.value >= 1913) yrs.value = 1750; play.textContent = "❚❚ Pause";
+    timer = setInterval(() => { yrs.value = +yrs.value + 1; yrs.dispatchEvent(new Event("input")); if (+yrs.value >= 1913) { clearInterval(timer); timer = null; play.textContent = "▶ Play"; } }, reduce ? 200 : 70); };
+  restyle();
+  const lg = document.getElementById("legend");
+  lg.innerHTML = [["--blue", "fewer wrecks named after first light"], ["--hot", "more after"], ["--dot", "no mentions either side, or not a test case"], ["--moss", "never-lit comparison place"], ["--gold", "lit by the slider year"]].map(([c, t]) => `<span><i style="background:var(${c})"></i>${t}</span>`).join("");
+  const top = [...SITES].filter(s => s.g === "light" && s.t).sort((a, b) => b.tot - a.tot).slice(0, 40);
+  const tl = document.getElementById("toplist");
+  top.forEach(s => { const li = document.createElement("li"); li.tabIndex = 0; const c = change(s);
+    li.innerHTML = `<span class="nm">${s.n} <span class="v">(${s.y})</span></span><span class="v">${fmt(s.tot)}</span><span class="d ${c == null ? "" : c < 0 ? "dn" : "up"}">${s.b == null ? "" : s.b + " → " + s.a}</span>`;
+    const go = () => { const o = mk.find(o => o.s === s); map.setView([s.la, s.lo], 7.5); o.m.openPopup(); showCard(s); };
+    li.onclick = go; li.onkeydown = e => { if (e.key === "Enter") go(); }; tl.appendChild(li); });
+  map.on("zoomend", () => restyle());
+})();
+
+/* ===== event study ===== */
+resp(document.getElementById("event"), (W, nar) => {
+  const E = D.event, H = 300, m = { l: 48, r: 12, t: 14, b: 40 }, svg = el("svg", { viewBox: `0 0 ${W} ${H}`, role: "img", "aria-label": "Event study: wreck mentions relative to lighting year" }, document.getElementById("event"));
+  const lo = Math.log(.35), hi = Math.log(2), Y = v => m.t + (hi - Math.log(Math.max(.35, Math.min(2, v)))) / (hi - lo) * (H - m.t - m.b);
+  const X = x => m.l + (x + 20) / 40 * (W - m.l - m.r);
+  [.5, .75, 1, 1.5, 2].forEach(t => { el("line", { x1: m.l, x2: W - m.r, y1: Y(t), y2: Y(t), stroke: t === 1 ? "var(--fg)" : "var(--rule)", "stroke-width": t === 1 ? 1.2 : 1 }, svg); lbl(svg, m.l - 6, Y(t) + 4, "×" + t, "lab m s", "end"); });
+  el("line", { x1: X(-.5), x2: X(-.5), y1: m.t, y2: H - m.b, stroke: "var(--hot)", "stroke-width": 2, "stroke-dasharray": "4 3" }, svg);
+  lbl(svg, X(-.5) + 6, m.t + 12, "first lit", "lab s b");
+  // band
+  const pts = E.filter(e => !e.ref || true);
+  let band = "M" + pts.map(e => X(e.mid).toFixed(1) + " " + Y(e.hi).toFixed(1)).join("L") + "L" + [...pts].reverse().map(e => X(e.mid).toFixed(1) + " " + Y(e.lo).toFixed(1)).join("L") + "Z";
+  el("path", { d: band, fill: "var(--blue)", opacity: .14 }, svg);
+  el("path", { d: "M" + pts.map(e => X(e.mid).toFixed(1) + " " + Y(e.irr).toFixed(1)).join("L"), fill: "none", stroke: "var(--blue)", "stroke-width": 2 }, svg);
+  E.forEach(e => { el("line", { x1: X(e.mid), x2: X(e.mid), y1: Y(e.lo), y2: Y(e.hi), stroke: "var(--blue)", "stroke-width": 3, opacity: .55 }, svg);
+    const c = el("circle", { cx: X(e.mid), cy: Y(e.irr), r: 6, fill: e.ref ? "var(--bg)" : "var(--blue)", stroke: "var(--blue)", "stroke-width": 2 }, svg);
+    hover(c, e.ref ? `<b>${e.bin} years</b><br>Reference period (set to 1)` : `<b>${e.bin} years</b><br>×${e.irr.toFixed(2)} (${xfmt(e.irr)})<br>95%: ×${e.lo.toFixed(2)} to ×${e.hi.toFixed(2)}`);
+    lbl(svg, X(e.mid), H - m.b + 16, nar ? e.bin.split(" to ")[0] : e.bin.replace(" to ", "…"), "lab m s", "middle"); });
+  lbl(svg, (m.l + W - m.r) / 2, H - 4, nar ? "years relative to first lighting (bin start)" : "years relative to first lighting", "lab m s", "middle");
+});
+
+/* ===== pick a lighthouse ===== */
+(() => { const sel = document.getElementById("pick");
+  const opts = [...SITES].filter(s => s.tot > 0).sort((a, b) => a.n.localeCompare(b.n));
+  sel.innerHTML = opts.map(s => `<option value="${s.n}">${s.n}${s.g === "control" ? " (never lit)" : s.y ? " (" + s.y + ")" : ""}</option>`).join("");
+  const start = opts.find(s => s.n === "Gunfleet") || opts[0]; sel.value = start.n;
+  let cur = start;
+  sel.onchange = () => { cur = opts.find(s => s.n === sel.value); draw(); };
+  const box = document.getElementById("pickc");
+  let redrawPick = () => {};
+  function draw() { const s = cur;
+    document.getElementById("pickh").textContent = `${s.n}: wreck entries naming it each year`;
+    document.getElementById("picks").textContent = s.g === "control" ? "A never-lit comparison place." : (s.y ? `First lit ${s.y} (date from ${s.src}).` : "") + (s.x ? ` Not a test case: ${s.x}.` : s.t ? " A test case in the main estimate." : "");
+    document.getElementById("pickn").textContent = `Matched on: ${s.al}. ${fmt(s.tot)} entries in all.` + (s.b != null ? ` 10 years before: ${s.b}; 10 years after: ${s.a}.` : "");
+    redrawPick(); }
+  resp(box, (W, nar) => { redrawPick = () => { box.innerHTML = ""; render(box.clientWidth, box.clientWidth < 560); }; render(W, nar); });
+  function render(W, nar) { const s = cur, v = s.s, n = v.length, H = 220, m = { l: 34, r: 8, t: 12, b: 26 };
+    const svg = el("svg", { viewBox: `0 0 ${W} ${H}`, role: "img", "aria-label": `${s.n} wreck mentions per year` }, box);
+    const max = Math.max(2, ...v), X = i => m.l + i / n * (W - m.l - m.r), Y = y => H - m.b - y / max * (H - m.t - m.b), bw = Math.max(1, (W - m.l - m.r) / n - .8);
+    if (s.y && s.y >= D.Y0 && s.y <= D.Y1) {
+      el("rect", { x: X(Math.max(0, s.y - D.Y0 - 10)), y: m.t, width: X(s.y - D.Y0) - X(Math.max(0, s.y - D.Y0 - 10)), height: H - m.t - m.b, fill: "var(--panel)" }, svg);
+      el("rect", { x: X(s.y - D.Y0 + 1), y: m.t, width: X(Math.min(n, s.y - D.Y0 + 11)) - X(s.y - D.Y0 + 1), height: H - m.t - m.b, fill: "var(--panel)" }, svg); }
+    const tk = max <= 4 ? [0, max] : [0, Math.round(max / 2), max];
+    tk.forEach(t => { el("line", { x1: m.l, x2: W - m.r, y1: Y(t), y2: Y(t), stroke: "var(--rule)" }, svg); lbl(svg, m.l - 6, Y(t) + 4, t, "lab m s", "end"); });
+    v.forEach((y, i) => { const r = el("rect", { x: X(i), y: Y(y), width: bw, height: Math.max(0, H - m.b - Y(y)), fill: "var(--fg)", opacity: .75 }, svg);
+      const hit = el("rect", { x: X(i) - 1, y: m.t, width: bw + 2, height: H - m.t - m.b, fill: "transparent" }, svg);
+      hover(hit, `<b>${D.Y0 + i}</b><br>${y} entr${y === 1 ? "y" : "ies"} naming ${s.n}<br>${fmt(D.cov.home[i])} home-waters entries that year`); });
+    if (s.y && s.y >= D.Y0 && s.y <= D.Y1) { const x = X(s.y - D.Y0) + bw / 2; el("line", { x1: x, x2: x, y1: m.t - 4, y2: H - m.b, stroke: "var(--hot)", "stroke-width": 2.5 }, svg); lbl(svg, x + (s.y > 1880 ? -6 : 6), m.t + 8, `first lit ${s.y}`, "lab s b", s.y > 1880 ? "end" : "start"); }
+    for (let y = 1750; y <= 1910; y += nar ? 40 : 20) lbl(svg, X(y - D.Y0), H - 8, y, "lab m s", "middle");
+  }
+  draw();
+})();
+
+/* ===== robustness ===== */
+resp(document.getElementById("rob"), (W, nar) => {
+  const R = D.rob, dn = k => R[k] && R[k].donut;
+  const names = [[R.donut, "Main: after lighting vs 6 to 20 years before", "--hot", 1], [dn("window_10"), "Window of 10 years either side"], [dn("never_lit_controls_only"), "Never-lit places as comparison only"], [dn("later_lit_controls_only"), "Later-lit lights as comparison only"], [dn("drop_hand_overrides"), "Without hand-corrected dates"], [dn("rocks_and_islands"), "Rocks and islands only"], [dn("headlands_and_sands"), "Headlands and sands only"], [dn("lit_1760_1840"), "Lights first lit 1760 to 1840"], [dn("lit_1841_1900"), "Lights first lit 1841 to 1900"], [dn("years_to_1890_only"), "Record to 1890 only (monthly pages)"], [dn("drop_top3_treated"), "Without the 3 most-mentioned test sites"], [R.main_w20, "Plain before and after (run-up included)", "--dot"], [R.placebo_early, "Placebo: fake date 10 years early", "--plum"], [R.placebo_early_norunup, "Placebo: 15 years early, no run-up", "--plum"]];
+  const rows = names.filter(r => r[0]), lw = nar ? 0 : 300, rh = nar ? 44 : 30, H = rows.length * rh + 40, m = { l: lw, r: 16, t: 8, b: 30 };
+  const svg = el("svg", { viewBox: `0 0 ${W} ${H}`, role: "img", "aria-label": "Robustness checks" }, document.getElementById("rob"));
+  const lo = Math.log(.45), hi = Math.log(2), X = v => m.l + 8 + (Math.log(Math.max(.45, Math.min(2, v))) - lo) / (hi - lo) * (W - m.l - m.r - 8);
+  [.5, .75, 1, 1.5, 2].forEach(t => { el("line", { x1: X(t), x2: X(t), y1: m.t, y2: H - m.b, stroke: t === 1 ? "var(--fg)" : "var(--rule)", "stroke-width": t === 1 ? 1.4 : 1 }, svg); lbl(svg, X(t), H - m.b + 16, "×" + t, "lab m s", "middle"); });
+  rows.forEach(([r, t, c, bold], i) => { const y = m.t + i * rh + (nar ? 30 : 15), col = `var(${c || "--blue"})`;
+    lbl(svg, nar ? 0 : m.l - 10, nar ? y - 12 : y + 4, t, "lab halo" + (bold ? " b" : ""), nar ? "start" : "end");
+    el("line", { x1: X(r.lo), x2: X(r.hi), y1: y, y2: y, stroke: col, "stroke-width": 3, opacity: .5 }, svg);
+    const cc = el("circle", { cx: X(r.irr), cy: y, r: 6, fill: col }, svg);
+    hover(cc, `<b>${t}</b><br>×${r.irr.toFixed(2)} (${xfmt(r.irr)})<br>95%: ×${r.lo.toFixed(2)} to ×${r.hi.toFixed(2)}<br>${r.n_clusters} sites in the model`); });
+});
+
+/* ===== permutation ===== */
+resp(document.getElementById("perm"), (W, nar) => {
+  const P = D.permd, h = P.hist, H = 190, m = { l: 34, r: 10, t: 10, b: 30 }, svg = el("svg", { viewBox: `0 0 ${W} ${H}`, role: "img", "aria-label": "Permutation distribution" }, document.getElementById("perm"));
+  const n = h.length, bwv = 3 / n, i0 = Math.round(.5 / bwv), i1 = Math.round(1.5 / bwv), max = Math.max(...h);
+  const X = v => m.l + (v - .5) / 1 * (W - m.l - m.r), Y = v => H - m.b - v / max * (H - m.t - m.b), bw = bwv * (W - m.l - m.r);
+  h.forEach((v, i) => { if (i < i0 || i >= i1) return; const r = el("rect", { x: X(i * bwv) + 1, y: Y(v), width: bw - 2, height: H - m.b - Y(v), fill: "var(--dot)", rx: 2 }, svg); hover(r, `×${(i * bwv).toFixed(3)} to ×${((i + 1) * bwv).toFixed(3)}<br>${v} of ${P.n} shuffles`); });
+  [.5, .75, 1, 1.25, 1.5].forEach(t => lbl(svg, X(t), H - 10, "×" + t, "lab m s", "middle"));
+  el("line", { x1: m.l, x2: W - m.r, y1: H - m.b, y2: H - m.b, stroke: "var(--rule)" }, svg);
+  const ox = X(Math.exp(P.observed)); el("line", { x1: ox, x2: ox, y1: m.t, y2: H - m.b, stroke: "var(--hot)", "stroke-width": 2.5 }, svg);
+  lbl(svg, ox + 6, m.t + 10, `real: ×${Math.exp(P.observed).toFixed(2)}`, "lab s b halo");
+});
+</script>
+</body>
+</html>
